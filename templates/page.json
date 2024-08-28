@@ -1,0 +1,880 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_DLBYzM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NRUF6T": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Додайте інноваційні каву та матча з грибами у своє меню та на полицю <\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_iUAeEq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Будьте першими, хто запропонує напої з адаптогенними грибами у своїх кав’ярнях, ресторанах, йога-студіях, офісах чи коворкінгах<\/p>"
+          }
+        },
+        "button_NxWXCX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Отримати тестові зразки",
+            "button_link": "#contact-form-link",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NRUF6T",
+        "text_iUAeEq",
+        "button_NxWXCX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_qiwmX3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bxNQkF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Привіт! Ми — Rüte!",
+            "heading_size": "h1"
+          }
+        },
+        "text_irqtVp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ми запрошуємо власників бізнесів до співпраці. Відкрийте для себе унікальні властивості грибів та здивуйте своїх клієнтів корисними напоями та продуктами. 🌱<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_YmGd39": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "#contact-form-link",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bxNQkF",
+        "text_irqtVp",
+        "button_YmGd39"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3___1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-1",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_tCUfN8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rA6Hbk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Чому гриби?",
+            "heading_size": "h1"
+          }
+        },
+        "text_iXMbCY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>- У сучасному світі ми часто стикаємось зі стресом, розфокусуванням, поганим сном та апатією.<\/p><p>- Продукти з адаптогенними грибами можуть допомогти вирішити ці проблеми, забезпечуючи стабільну енергію, покращення когнітивних функцій та зміцнення імунітету.<\/p>"
+          }
+        },
+        "button_Ln793x": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rA6Hbk",
+        "text_iXMbCY",
+        "button_Ln793x"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_fWi8XD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wN9Jqj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee.png",
+            "title": "<strong>Кав'ярні<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_G4afRt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cbd.png",
+            "title": "<strong>CBD-шопи<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QzHHij": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yoga.png",
+            "title": "<strong>Йога-студії<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_h68kWi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/it-hub.png",
+            "title": "<strong>IT-хаби<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wN9Jqj",
+        "column_G4afRt",
+        "column_QzHHij",
+        "column_h68kWi"
+      ],
+      "settings": {
+        "title": "Для кого ми?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Отримати тестові зразки",
+        "button_link": "#contact-form-link",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_9TdBGM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_xrMd4C": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_114.png",
+            "title": "<strong>Стрес<\/strong>",
+            "text": "<p><strong>Рейші:<\/strong> Заспокоює нервову систему та знижує рівень стресу<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jrbMJE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lions_mane_01_1.png",
+            "title": "<strong>Розфокусування<\/strong>",
+            "text": "<p><strong>Їжовик гребінчастий (Lion’s Mane):<\/strong> Покращує когнітивні функції та пам'ять, допомагає концентруватися, сприяє відновленню нейронів <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JQ4YK7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_115.png",
+            "title": "<strong>Поганий сон<\/strong>",
+            "text": "<p><strong>Траметес різнобарвний:<\/strong> Допомагає покращити якість сну та зменшити тривожність, підтримує загальний стан здоров'я організму.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6Qptaa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1010108044.png",
+            "title": "<strong>Апатія<\/strong>",
+            "text": "<p><strong>Кордицепс:<\/strong> Підвищує витривалість та рівень енергії, підтримує здоров'я легенів та серця.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_xrMd4C",
+        "column_jrbMJE",
+        "column_JQ4YK7",
+        "column_6Qptaa"
+      ],
+      "settings": {
+        "title": "Чому гриби?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Отримати тестові зразки",
+        "button_link": "#contact-form-link",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_bhc9hX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MdcNQz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ми вже співпрацюємо з",
+            "heading_size": "h1"
+          }
+        },
+        "text_6JCAaX": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_FH46nH": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MdcNQz",
+        "text_6JCAaX",
+        "button_FH46nH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_Lq9URp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ztn7jg": {
+          "type": "heading",
+          "settings": {
+            "heading": "GxBar",
+            "heading_size": "h1"
+          }
+        },
+        "text_kckTct": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ми раді повідомити про нашу колаборацію з мережею GxBar у Києві.<br\/><br\/>📍 Адреси GxBar, де ви вже можете знайти нашу продукцію:<br\/>- GxBig, Малевича, 86П<br\/>- GxSpecial, Лесі Українки, 13<br\/>- GxEasy, Мечникова, 6<br\/>- GxBabe, Зариця, 1-В<br\/>- GxBrave, Острозьких, 8<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_z8aJBJ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ztn7jg",
+        "text_kckTct",
+        "button_z8aJBJ"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gbar.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_QPF9AH": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_BT6cVE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mushroom-coffee"
+          }
+        },
+        "featured_collection_r38zpF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "decaf"
+          }
+        },
+        "featured_collection_tdTd6K": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "matcha"
+          }
+        },
+        "featured_collection_Mzzjhz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "drip-mushroom-coffee"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_BT6cVE",
+        "featured_collection_r38zpF",
+        "featured_collection_tdTd6K",
+        "featured_collection_Mzzjhz"
+      ],
+      "settings": {
+        "title": "<strong>Асортимент продукції<\/strong>",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_PpXWnh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RcCUYe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ексклюзивний контент",
+            "heading_size": "h1"
+          }
+        },
+        "text_ELamQg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Окрім високоякісного продукту, клієнти отримують ексклюзивний доступ до різноманітного контенту, що сприяє покращенню ментального та фізичного здоров’я. Це включає в себе дихальні практики, які допомагають знизити рівень стресу та підвищити концентрацію, а також уроки йоги, спрямовані на зміцнення тіла, розвиток гнучкості та гармонію душі. Наш підхід виходить за межі звичайного споживання – ми прагнемо створити для вас цілу систему підтримки, яка допоможе вам досягти балансу в житті та підвищити його якість.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_icUeU3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RcCUYe",
+        "text_ELamQg",
+        "button_icUeU3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_978b1394-5bb2-4774-891b-4ae5f5ffbb26.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-1",
+        "color_scheme": "scheme-de790d46-03d4-4438-a1bd-7c2ed31225d0",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_irWWE7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ELN4CJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Що входить у набір?",
+            "heading_size": "h1"
+          }
+        },
+        "text_g7y8zY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. Логістична коробка.<br\/>2. Картки з інформацією про гриби.<br\/>3. Картки з доступом до ексклюзивного контенту: дихальні практики, медитації.<br\/>4. Капучінатор для подарункового набору (+150 грн).<br\/>5. Функціональна мірна ложка (для тих, хто купує більше двох пачок).<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_EmnqzB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Отримати тестові зразки",
+            "button_link": "#contact-form-link",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ELN4CJ",
+        "text_g7y8zY",
+        "button_EmnqzB"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_002d6246-d446-4536-9389-4e0ea6ea9729.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_nEtFAj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xXbtnM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Підтримка продажів",
+            "heading_size": "h1"
+          }
+        },
+        "text_jBXidc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ми створюємо креатив, що інформує про інноваційну матчу та каву, доступні у вашому закладі (місто, країна). Запрошуємо UGC-креатора або інфлюенсера відвідати заклад і зняти відео про продукт. Запускаємо таргетовану рекламу за адресою закладу, по місту або країні.<br\/><br\/><strong>Підтримка адміністраторів:<\/strong><br\/>Роздруковані матеріали та навчальні відео про користь грибів і продукти. Створюємо спільну групу з адміністраторами для швидкого вирішення питань.<br\/><strong><br\/>Програма бонусів:<\/strong><br\/>При продажу 10 пачок продукту адміністратор отримує 1 пачку безкоштовно. Персональні знижки для співробітників закладу на всі наші продукти.<br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_BDndPM": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xXbtnM",
+        "text_jBXidc",
+        "button_BDndPM"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2_ff77a2c3-67ba-4f71-a0a9-a5f0f76ef713.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-1",
+        "color_scheme": "scheme-de790d46-03d4-4438-a1bd-7c2ed31225d0",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_jJfzAE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hcTTH4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Продукти з грибами — новий wellness-тренд, який підвищить лояльність аудиторії<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_KBpJQg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Адаптогени — корисна новинка, яка користується шаленим попитом в Америці та поступово набирає популярність в Україні. Вони привертають увагу веганів, вегетаріанців та всіх, хто цікавіться біохакінгом чи здоровим способом життя. Додаючи в меню чи на полиці позиції з грибами — ви розширюєте аудиторію лояльних клієнтів!<\/p>"
+          }
+        },
+        "button_CMH3JR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Отримати тестові зразки",
+            "button_link": "#contact-form-link",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hcTTH4",
+        "text_KBpJQg",
+        "button_CMH3JR"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_Fn3D9D": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aRAbxm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Вирішення проблем українців",
+            "heading_size": "h1"
+          }
+        },
+        "text_YAGMKy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>У сучасній Україні кожен день — новий виклик. Стрес, розфокус, поганий сон, апатія — все це знайомо багатьом з нас. Наші продукти з адаптогенними грибами допомагають вирішити ці проблеми, забезпечуючи стабільну енергію, покращення когнітивних функцій та зміцнення імунітету. 🍄<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_3t6pQm": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_aRAbxm",
+        "text_YAGMKy",
+        "button_3t6pQm"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_1010108158.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wXdMGi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zRkPjW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Чому варто довіряти нам?",
+            "heading_size": "h1"
+          }
+        },
+        "text_D6zBzm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ми працюємо з найкращими постачальниками грибів та отримали всі необхідні сертифікати. Всі продукти пройшли контроль якості та безпеки. А наші партнери — це провідні заклади, які вже спробували та оцінили користь функціональних грибів.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_LkByYJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Отримати тестові зразки",
+            "button_link": "#contact-form-link",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zRkPjW",
+        "text_D6zBzm",
+        "button_LkByYJ"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_1010108159.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "home_reviews_jfgDDz": {
+      "type": "home_reviews",
+      "blocks": {
+        "column_FV8ffy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_15.png",
+            "Text": "“Кава на смак зовсім не відрізняється від звичайної, та ще й корисна. Вагалась щодо смаку, але дякую за відгуки, де написано, що вона смачна!”",
+            "Name": "- Анастасія Затула"
+          }
+        },
+        "column_MWydma": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_16.png",
+            "Text": "“Зазвичай мені потрібно дві, або навіть три чашки кави на день для підтримання концентрації. Але з цією кавою мені вистачає ефекту на цілий день. Концентруватись дійсно стало набагато легше!”",
+            "Name": "- Христина Василюк"
+          }
+        },
+        "column_khwBXC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1346_oooo.plus.png",
+            "Text": "\"Моя постійна боротьба - знайти каву, яка не впливає на якість мого сну. З цією кавою я можу дозволити собі чашку навіть вдень і не хвилюватись, що це вплине на мій нічний відпочинок!\"",
+            "Name": "- Юлія Озерова"
+          }
+        },
+        "column_jRKJR3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_17.png",
+            "Text": "“Чудовий смак та підтримка моєї ефективності – вражає! Не пошкодував про покупку!”",
+            "Name": "- Сергій Любов"
+          }
+        },
+        "column_3i6ftm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1508_oooo.plus.png",
+            "Text": "\"Ця кава вирішила мою проблему з пошуком напою, який би був смачним і водночас не шкідливим для шлунка. Нарешті, я можу насолоджуватися кавою без кислотності та дискомфорту.\"",
+            "Name": "- Василиса Романова"
+          }
+        },
+        "column_URptzW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/347_oooo.plus.png",
+            "Text": "\"Я довго шукала каву, яка б заряджала мене енергією на весь робочий день без необхідності пити її кожні кілька годин. Цей сорт виявився ідеальним вибором, тримаючи мене у тонусі без постійних перерв на дозу кофеїну.\"",
+            "Name": "- Олена Кузнець"
+          }
+        },
+        "column_PjwNkt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/216_oooo.plus.png",
+            "Text": "\"Довго шукав каву, яка б не провокувала тривожність після вживання. Ця кава стала ідеальним рішенням: вона заряджає енергією без звичайних побічних ефектів кофеїну.\"",
+            "Name": "- Олексій Бойко"
+          }
+        },
+        "column_6TYwt8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1678_oooo.plus.png",
+            "Text": "\"Знайти каву, яка б відповідала моїм веганським переконанням, було непросто. Цей варіант відмінно вписався в мої вимоги, пропонуючи якісний та етично вироблений продукт.\"",
+            "Name": "- Дмитро Гончар"
+          }
+        },
+        "column_gfrg8i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1137_oooo.plus.png",
+            "Text": "\"Мені потрібна була кава, яка не підвищує тиск, оскільки я страждаю на гіпертонію. Ця кава дозволила мені насолоджуватися смаком без ризику для здоров'я.\"",
+            "Name": "- Анастасія Крючкова"
+          }
+        },
+        "column_zJNpeG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1965_oooo.plus.png",
+            "Text": "\"Знайшла у матчі ідеальний спосіб зняти стрес після напруженого робочого дня. Вона допомагає мені розслабитися і відновити ментальний баланс.\"",
+            "Name": "- Юлія Верба"
+          }
+        }
+      },
+      "block_order": [
+        "column_FV8ffy",
+        "column_MWydma",
+        "column_khwBXC",
+        "column_jRKJR3",
+        "column_3i6ftm",
+        "column_URptzW",
+        "column_PjwNkt",
+        "column_6TYwt8",
+        "column_gfrg8i",
+        "column_zJNpeG"
+      ],
+      "settings": {
+        "title": "Що кажуть наші клієнти",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_qfFm4J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HtRCrz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ознайомитись з повною презентацією",
+            "heading_size": "h2"
+          }
+        },
+        "text_LW4GiV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Натискайте кнопку для завантаження повної версії презентації для B2B партнерства.<\/p>"
+          }
+        },
+        "button_V7JyrY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Завантажити",
+            "button_link": "https:\/\/drive.google.com\/uc?export=download&id=1y_ZNUTeta2ADdh59TohdHddtuN0rDqMB",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HtRCrz",
+        "text_LW4GiV",
+        "button_V7JyrY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "contact_form_p3LMGy": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Отримайте безкоштовні тестові зразки",
+        "heading_size": "h1",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1721930127335d927c": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_DLBYzM",
+    "image_with_text_qiwmX3",
+    "rich_text_tCUfN8",
+    "multicolumn_fWi8XD",
+    "multicolumn_9TdBGM",
+    "rich_text_bhc9hX",
+    "image_with_text_Lq9URp",
+    "collection_list_QPF9AH",
+    "image_with_text_PpXWnh",
+    "image_with_text_irWWE7",
+    "image_with_text_nEtFAj",
+    "rich_text_jJfzAE",
+    "image_with_text_Fn3D9D",
+    "image_with_text_wXdMGi",
+    "home_reviews_jfgDDz",
+    "rich_text_qfFm4J",
+    "contact_form_p3LMGy",
+    "1721930127335d927c"
+  ]
+}

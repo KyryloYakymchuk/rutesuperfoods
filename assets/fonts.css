@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'Gilroy';
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Thin.eot?v=1705093300');
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Thin.eot?v=1705093300?#iefix') format('embedded-opentype'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Thin.woff?v=1705093300') format('woff'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Thin.ttf?v=1705093300') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-UltraLight.eot?v=1705093300');
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-UltraLight.eot?v=1705093300?#iefix') format('embedded-opentype'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-UltraLight.woff?v=1705093300') format('woff'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-UltraLight.ttf?v=1705093300') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Light.eot?v=1705093300');
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Light.eot?v=1705093300?#iefix') format('embedded-opentype'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Light.woff?v=1705093300') format('woff'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Light.ttf?v=1705093300') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Regular.eot?v=1705093197');
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Regular.eot?v=1705093197?#iefix') format('embedded-opentype'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Regular.woff?v=1705093197') format('woff'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Regular.ttf?v=1705093197') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Medium.eot?v=1705093300');
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Medium.eot?v=1705093300?#iefix') format('embedded-opentype'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Medium.woff?v=1705093300') format('woff'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Medium.ttf?v=1705093300') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-SemiBold.eot?v=1705093300');
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-SemiBold.eot?v=1705093300?#iefix') format('embedded-opentype'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-SemiBold.woff?v=1705093300') format('woff'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-SemiBold.ttf?v=1705093300') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Bold.eot?v=1705093300');
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Bold.eot?v=1705093300?#iefix') format('embedded-opentype'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Bold.woff?v=1705093300') format('woff'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Bold.ttf?v=1705093300') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-ExtraBold.eot?v=1705093300');
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-ExtraBold.eot?v=1705093300?#iefix') format('embedded-opentype'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-ExtraBold.woff?v=1705093300') format('woff'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-ExtraBold.ttf?v=1705093300') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Black.eot?v=1705093299');
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Black.eot?v=1705093299?#iefix') format('embedded-opentype'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Black.woff?v=1705093300') format('woff'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Gilroy-Black.ttf?v=1705093300') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'JetBrainsMono';
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/JetBrainsMono-Regular.eot?v=1705506011');
+		src: url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/JetBrainsMono-Regular.eot?v=1705506011?#iefix') format('embedded-opentype'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/JetBrainsMono-Regular.woff2?v=1705505825') format('woff2'),
+		url('https://cdn.shopify.com/s/files/1/0679/1285/9887/files/JetBrainsMono-Regular.ttf?v=1705505801') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}

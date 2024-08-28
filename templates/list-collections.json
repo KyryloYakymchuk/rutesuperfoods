@@ -1,0 +1,472 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "title": "Collections",
+        "sort": "alphabetical",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_mobile": "2"
+      }
+    },
+    "featured_collection_NjJVN3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Starter kits",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description-caffeine": "",
+        "description_style": "body",
+        "collection": "starter-kit",
+        "products_to_show": 5,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "2a01795f-dc81-4316-aafa-ad78ae62d88d": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Кава",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description-caffeine": "<p>{{ section.settings.collection.metafields.custom.amount_of_caffeine.value }}<\/p>",
+        "description_style": "body",
+        "collection": "mushroom-coffee",
+        "products_to_show": 5,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_7w3Xhm": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Кава без кофеїну",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description-caffeine": "<p>{{ section.settings.collection.metafields.custom.amount_of_caffeine.value }}<\/p>",
+        "description_style": "body",
+        "collection": "decaf",
+        "products_to_show": 5,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4ff8f483-a729-4608-a304-48ff214199b2": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Матча",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description-caffeine": "<p>{{ section.settings.collection.metafields.custom.amount_of_caffeine.value }}<\/p>",
+        "description_style": "body",
+        "collection": "matcha",
+        "products_to_show": 5,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_wcpcPW": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Drip mushroom coffee",
+        "heading_size": "h1",
+        "description": "<p>Функціональна кава в дріпах, яку легко приготувати в будь-якому місці для вирішення ментальної втоми та надання ясності розуму.<\/p>",
+        "show_description": false,
+        "description-caffeine": "",
+        "description_style": "body",
+        "collection": "drip-mushroom-coffee",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_KnP6tz": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Матча + Кава",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description-caffeine": "",
+        "description_style": "body",
+        "collection": "coffee-matcha",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_Yc9jxi": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Аксесуари",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description-caffeine": "",
+        "description_style": "body",
+        "collection": "аксесуари",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f7916ea4-9218-4c6f-87c2-10c4a39b771c": {
+      "type": "home-ingredients",
+      "blocks": {
+        "template--17275147518191__f7916ea4-9218-4c6f-87c2-10c4a39b771c-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado.svg",
+            "title": "Кето"
+          }
+        },
+        "template--17275147518191__f7916ea4-9218-4c6f-87c2-10c4a39b771c-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-1.svg",
+            "title": "Paleo friendly"
+          }
+        },
+        "template--17275147518191__f7916ea4-9218-4c6f-87c2-10c4a39b771c-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-2.svg",
+            "title": "Веганський продукт"
+          }
+        },
+        "17b5db1f-f33a-4f09-9c47-ca37da13b276": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-3.svg",
+            "title": "Без ГМО"
+          }
+        },
+        "6895fcbd-2852-40e7-b1b4-1d1e411f9b8f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-4.svg",
+            "title": "Без цукру"
+          }
+        },
+        "1584b37b-6c96-41d3-84c6-b11f4ec3e4e0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-5.svg",
+            "title": "Без глютену"
+          }
+        },
+        "caac16d0-dc87-469f-9285-e985622108e6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-6.svg",
+            "title": "Без лактози"
+          }
+        },
+        "145f691b-829c-437e-80c4-5771abe78fc9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-7.svg",
+            "title": "Без сої"
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147518191__f7916ea4-9218-4c6f-87c2-10c4a39b771c-column-1",
+        "template--17275147518191__f7916ea4-9218-4c6f-87c2-10c4a39b771c-column-2",
+        "template--17275147518191__f7916ea4-9218-4c6f-87c2-10c4a39b771c-column-3",
+        "17b5db1f-f33a-4f09-9c47-ca37da13b276",
+        "6895fcbd-2852-40e7-b1b4-1d1e411f9b8f",
+        "1584b37b-6c96-41d3-84c6-b11f4ec3e4e0",
+        "caac16d0-dc87-469f-9285-e985622108e6",
+        "145f691b-829c-437e-80c4-5771abe78fc9"
+      ],
+      "settings": {
+        "title": "Енергія. Фокус. Імунітет.",
+        "paragraph1": "Кожен екстракт у нашій іноваційній каві був уважно відібраний за його унікальні корисні властивості, щоб підтримати твоє фізичне та психічне здоров’я. Важливий критерій відбору - це ефективність, доказова база. Розмішай у воді, розслабся та досліджуй як змінються кожен день твоя концентрація. Це й буде твій покращений раноквий ритуал.",
+        "paragraph2": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ccd5f7a8-a9ff-49a4-96d8-32fa7a85a271": {
+      "type": "home-features",
+      "blocks": {
+        "template--17275147518191__ccd5f7a8-a9ff-49a4-96d8-32fa7a85a271-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_1_UAmap__1.svg",
+            "title": "Виготовлено в Україні"
+          }
+        },
+        "template--17275147518191__ccd5f7a8-a9ff-49a4-96d8-32fa7a85a271-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_4_Bioactive.svg",
+            "title": "10 000 мг активних речовин в кожній пачці"
+          }
+        },
+        "template--17275147518191__ccd5f7a8-a9ff-49a4-96d8-32fa7a85a271-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_3_Standardized.svg",
+            "title": "Сертифіковано в Україні"
+          }
+        },
+        "63938edf-4af1-459c-8b07-1784ec8603f4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_2_Nootrops.svg",
+            "title": "Природні Ноотропи та Адаптогени в середині"
+          }
+        },
+        "2956c1ae-d384-47fb-9fe9-1e51f9df18a0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_5_NaturProduct.svg",
+            "title": "100% Натуральний продукт"
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147518191__ccd5f7a8-a9ff-49a4-96d8-32fa7a85a271-column-1",
+        "template--17275147518191__ccd5f7a8-a9ff-49a4-96d8-32fa7a85a271-column-2",
+        "template--17275147518191__ccd5f7a8-a9ff-49a4-96d8-32fa7a85a271-column-3",
+        "63938edf-4af1-459c-8b07-1784ec8603f4",
+        "2956c1ae-d384-47fb-9fe9-1e51f9df18a0"
+      ],
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/1_e794d8eb-d8a6-4da8-ac2e-7aa3c24cff0b.png",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "208adcc3-4dd1-448c-8cd3-c1c6b7c4d9bd": {
+      "type": "home-logos",
+      "blocks": {
+        "template--17275147518191__208adcc3-4dd1-448c-8cd3-c1c6b7c4d9bd-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Inc.__business_magazine__logo.svg"
+          }
+        },
+        "template--17275147518191__208adcc3-4dd1-448c-8cd3-c1c6b7c4d9bd-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Guardian_2018.svg"
+          }
+        },
+        "template--17275147518191__208adcc3-4dd1-448c-8cd3-c1c6b7c4d9bd-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_Insider_Logo.svg"
+          }
+        },
+        "02a38b2f-50aa-43a2-a9c6-502303407e54": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NewYorkTimes.svg"
+          }
+        },
+        "691fe6c3-20bf-4ba7-b962-ff4fdf44c030": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Forbes_logo_1.svg"
+          }
+        },
+        "56a0c82a-8734-4b77-9d4c-18f653d6ab33": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vice_Logo.svg"
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147518191__208adcc3-4dd1-448c-8cd3-c1c6b7c4d9bd-column-1",
+        "template--17275147518191__208adcc3-4dd1-448c-8cd3-c1c6b7c4d9bd-column-2",
+        "template--17275147518191__208adcc3-4dd1-448c-8cd3-c1c6b7c4d9bd-column-3",
+        "02a38b2f-50aa-43a2-a9c6-502303407e54",
+        "691fe6c3-20bf-4ba7-b962-ff4fdf44c030",
+        "56a0c82a-8734-4b77-9d4c-18f653d6ab33"
+      ],
+      "settings": {
+        "title": "Про інноваційну каву вже писали на",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-c162c817-618a-46ae-a7db-be8145b1a53e",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "76b4c158-d39d-4762-96ff-83af07cac9f3": {
+      "type": "newsletter",
+      "blocks": {
+        "template--17275147518191__76b4c158-d39d-4762-96ff-83af07cac9f3-heading-text-1": {
+          "type": "heading-text",
+          "settings": {
+            "heading1": "Приєднуйся до Rüte",
+            "text1": "<p>Будь першим, хто дізнається про акції, новинки та останні новини. Отримай 15% знижки на свою першу покупку.<\/p>"
+          }
+        },
+        "template--17275147518191__76b4c158-d39d-4762-96ff-83af07cac9f3-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147518191__76b4c158-d39d-4762-96ff-83af07cac9f3-heading-text-1",
+        "template--17275147518191__76b4c158-d39d-4762-96ff-83af07cac9f3-email_form-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-de790d46-03d4-4438-a1bd-7c2ed31225d0",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_collection_NjJVN3",
+    "2a01795f-dc81-4316-aafa-ad78ae62d88d",
+    "featured_collection_7w3Xhm",
+    "4ff8f483-a729-4608-a304-48ff214199b2",
+    "featured_collection_wcpcPW",
+    "featured_collection_KnP6tz",
+    "featured_collection_Yc9jxi",
+    "f7916ea4-9218-4c6f-87c2-10c4a39b771c",
+    "ccd5f7a8-a9ff-49a4-96d8-32fa7a85a271",
+    "208adcc3-4dd1-448c-8cd3-c1c6b7c4d9bd",
+    "76b4c158-d39d-4762-96ff-83af07cac9f3"
+  ]
+}

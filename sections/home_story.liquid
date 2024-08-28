@@ -1,0 +1,112 @@
+<div class="section-{{ section.id }}-padding home_story multicolumn color-{{ section.settings.color_scheme }} {% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
+  <div
+    class="page-width home-ingredients_wrapper section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    {% if settings.animations_reveal_on_scroll %}
+      data-cascade
+    {% endif %}
+  >
+    <div class="home_story_image" style="background-image: url({{ section.settings.background_image.src | img_url: "2000x2000" }})">
+      
+    </div>
+    <div class="home_story_content">
+      <div class="home_story_content_overlay">
+        <h2 class="home_story_title">{{ section.settings.title }}</h2>
+        <a href="{{ section.settings.button_link }}" class="home_story_button button">{{ section.settings.button_text }}</a>
+      </div>
+      <div class="home_story_content_text_overlay">
+        {%- for block in section.blocks -%}
+          <p class="home_story_content_text">{{ block.settings.text_item }}</p>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Home story",
+  "class": "section",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background_image"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 33
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 33
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Text Item",
+      "type": "inline_richtext",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "text_item",
+          "label": "Text Item"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Home story",
+      "blocks": [
+        
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}

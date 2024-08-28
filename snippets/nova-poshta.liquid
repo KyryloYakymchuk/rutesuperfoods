@@ -1,0 +1,201 @@
+<link rel="stylesheet" href="{{ 'component-nova-poshta.css' | asset_url }}">
+<script src="{{ 'nova-poshta.js' | asset_url }}"></script>  
+{% capture np %}
+ {% assign product = all_products['нова-пошта'] %}
+  <div id="nova-poshta">
+    <div id="deliveryVariants" class="no-js-hidden" data-carturl="/cart" data-variant="branch">
+      <legend class="form__label">{{ 'novaposhta.title' | t }}</legend>
+      <fieldset class="js product-form__input_">
+          <div class="radio-wrap">
+            <input type="radio" data-type="branch" name="id" value="41607494828077" id="variant-branch" checked="">
+            <label for="variant-branch">{{ 'novaposhta.delivery_types.branch' | t }}</label>
+          </div>
+          <div class="radio-wrap">
+            <input type="radio" data-type="courier" name="id" value="41607494860845" id="variant-courier">
+            <label for="variant-courier">{{ 'novaposhta.delivery_types.courier' | t }}</label>
+          </div>
+      </fieldset>
+    </div>
+      <div class="search-wrap">
+
+        <!-- Cities -->
+        <div class="quick-city-wrap"></div>
+        <div class="city-wrap">  
+          <div class="form-group form-city">
+            <input 
+              type="input" 
+              class="form-control input-city" 
+              id="city-search" 
+              data-ref="" 
+              data-city=""
+              autocomplete="off"
+              readonly
+              onfocus="this.removeAttribute('readonly')"
+              placeholder="{{ 'novaposhta.search_fields.city' | t }}">
+            <span class="clear d-none"></span>
+            <div class="input-error"></div>
+          </div>
+          <div id="city_filter" class="dropdown-filter"></div>
+        </div>
+
+        <!-- Warehouses -->
+        <div class="warehouse-wrap">  
+          <div class="form-group form-warehouse">
+            <input type="input" class="form-control input-warehouse" id="warehouse-search" data-ref="" value="" placeholder="{{ 'novaposhta.search_fields.branch' | t }}" 
+              readonly
+              onfocus="this.removeAttribute('readonly')"
+              autocomplete="off">
+
+            <span class="clear d-none"></span>
+            <div class="input-error"></div>
+          </div>
+          <div id="warehouse_filter" class="dropdown-filter"></div>
+        </div>
+
+        <!-- Addresses -->
+        <div class="address-wrap d-none">  
+          <div class="form-group form-street">
+            <input type="input" class="form-control input-street" id="address-street" data-ref="" value="" placeholder="{{ 'novaposhta.search_fields.street' | t }}"
+              readonly
+              onfocus="this.removeAttribute('readonly')"
+              autocomplete="off">
+            <span class="clear d-none"></span>
+            <div class="input-error"></div>
+          </div>
+          <div id="street_filter" class="dropdown-filter"></div>
+          <div class="form-group form-build">
+            <input type="input" class="form-control input-build" id="address-build" data-ref="" value="" placeholder="{{ 'novaposhta.search_fields.build' | t }}"
+              readonly
+              onfocus="this.removeAttribute('readonly')"
+              autocomplete="off">
+          </div>
+          <div class="form-group form-flat">
+            <input type="input" class="form-control input-flat" id="address-flat" data-ref="" value="" placeholder="{{ 'novaposhta.search_fields.flat' | t }}" 
+              autocomplete="off"
+              readonly
+              onfocus="this.removeAttribute('readonly')">
+          </div>    
+        </div>
+
+      </div> 
+    </div>
+{% endcapture %} 
+<script>
+
+  window.NP_API_KEY = "{{ settings.np_api_key | default: 'b1f5b7037b014d51104c713582797159'}}";
+ 
+  let observerNP = new MutationObserver(mutations => {
+
+    for(let mutation of mutations) {
+  
+      for(let node of mutation.addedNodes) {
+        if (!(node instanceof HTMLElement)) continue;
+        if (node.querySelector('.qsc2-drawer-footer') || node.classList.contains('qsc2-drawer-footer')) {  // node -> .qsc2-mini-cart
+          setTimeout( function(){
+            window.quickCityIndices = "{{ settings.quick_city_index }}";
+            window.parentBody = document.querySelectorAll('.qsc2-sf-content')[1];
+              parentBody.insertAdjacentHTML('beforeend',{{np | json}});
+              parentBody.querySelector('.qsc2-sf-content__body').remove();
+              parentBody.style.backgroundColor = 'rgb(248,248,248)';
+              parentBody.style.boxShadow = '0 0 10px #82828233';
+              parentBody.classList.add('poshta-content');
+           
+            let checkoutButtont = document.querySelector('.qsc2-checkout-button');
+            window.checkoutButtonWrapper = document.createElement('div');
+              checkoutButtonWrapper.classList.add('checkout-button-wrap');
+              checkoutButtont.parentNode.insertBefore(checkoutButtonWrapper, checkoutButtont);
+              checkoutButtonWrapper.appendChild(checkoutButtont);
+              checkoutButtonWrapper.setAttribute('data-tip','{{ 'novaposhta.checkout_button.notification' | t }}');
+              checkoutButtonWrapper.setAttribute('data-branch','{{ 'novaposhta.checkout_button.notification_branch' | t }}');
+
+              let buttonHTML = '<div class="test-button qsc2-basic qsc2-btn qsc2-checkout-button"></div>';
+              let buttonText = document.querySelector('.checkout-button-wrap button.qsc2-checkout-button').innerText
+              checkoutButtonWrapper.insertAdjacentHTML('afterbegin',buttonHTML);
+
+            /*== translations ==*/  
+            window.methodBranch   = '{{ 'novaposhta.delivery_types.branch' | t }}';
+            window.methodCourier  = '{{ 'novaposhta.delivery_types.courier' | t }}';
+            window.titleDelivery  = '{{ 'novaposhta.delivery' | t }}';
+            window.alertKeyboard  = '{{ 'novaposhta.alert.keyboard' | t }}';
+            window.alertCity      = '{{ 'novaposhta.alert.city' | t }}';
+            window.alertWarehouse = '{{ 'novaposhta.alert.warehouse' | t }}';
+            window.alertStreet    = '{{ 'novaposhta.alert.street' | t }}';
+            window.checkoutButton = document.querySelector('.checkout-button-wrap .test-button');
+            checkoutButton.innerText = buttonText;
+            document.querySelector('.checkout-button-wrap button.qsc2-checkout-button').classList.add('d-none');
+            /*== events ==*/
+            checkoutButtonWrapper.addEventListener('click', function() {
+              if(checkoutButtonWrapper.classList.contains('tool')) {
+                node.classList.add('qsc2-drawer-footer--above');
+                node.classList.add('poshta-open');
+                parentBody.classList.remove('qsc2-sf-content--hide');
+                parentBody.classList.add('poshta-content');
+              }            
+            })
+            parentBody.querySelector('.qsc2-sf-content__close-btn').addEventListener('click', function() {
+              node.classList.remove('qsc2-drawer-footer--above');
+              node.classList.remove('poshta-open');
+              let parent = document.querySelector('div.qsc2-drawer');
+                  parent.classList.remove('poshta-open');
+              parentBody.classList.add('qsc2-sf-content--hide');
+            }) 
+
+            node.querySelector('.qsc2-side-feature-btn[data-name="shipping"]').addEventListener('click', function(e) {              
+              let parent = document.querySelector('div.qsc2-drawer');
+                  parent.classList.add('poshta-open');
+              parentBody.classList.add('poshta-content');
+            })
+
+            window.pageType = 'sidebar';
+            NovaPoshtaMain();
+
+          },800)
+        }        
+      }
+    }
+  });
+  
+  let observerNPCart = new MutationObserver(mutations => {
+   
+    for(let mutation of mutations) {
+      var repeat = false;
+      for(let node of mutation.addedNodes) {
+        if (!(node instanceof HTMLElement)) continue;
+        if (node.getAttribute('id') == 'qikify-stickycart-v2-app') { 
+          document.getElementById('qikify-stickycart-v2-app').remove();
+        }
+
+      }
+    }
+  
+  });
+  
+  const bodyDOM = document.querySelector('body');
+  if (bodyDOM.classList.contains('cart')){
+    observerNPCart.observe(bodyDOM, {childList: true, subtree: true}) 
+    console.log('in cart');
+    setTimeout(function(){
+      document.querySelector('.cart__footer .np').insertAdjacentHTML('afterend',{{np | json}});
+      window.quickCityIndices = "{{ settings.quick_city_index }}";          
+      window.checkoutButton = document.querySelector('.cart__checkout-button'); 
+      window.checkoutButtonWrapper = document.querySelector('.checkout-button-wrap'); 
+      checkoutButtonWrapper.setAttribute('data-tip','{{ 'novaposhta.checkout_button.notification' | t }}');
+      checkoutButtonWrapper.setAttribute('data-branch','{{ 'novaposhta.checkout_button.notification_branch' | t }}');     
+      /*== translations ==*/  
+      window.methodBranch   = '{{ 'novaposhta.delivery_types.branch' | t }}';
+      window.methodCourier  = '{{ 'novaposhta.delivery_types.courier' | t }}';
+      window.titleDelivery  = '{{ 'novaposhta.delivery' | t }}';
+      window.alertKeyboard  = '{{ 'novaposhta.alert.keyboard' | t }}';
+      window.alertCity      = '{{ 'novaposhta.alert.city' | t }}';
+      window.alertWarehouse = '{{ 'novaposhta.alert.warehouse' | t }}';
+      window.alertStreet    = '{{ 'novaposhta.alert.street' | t }}';
+      window.pageType = 'cart';
+      NovaPoshtaMain(); 
+      document.querySelector('.app-spinner').classList.add('d-none');   
+    
+    }, 3000)
+  } else {
+    observerNP.observe(bodyDOM, {childList: true, subtree: true});    
+  } 
+
+</script>

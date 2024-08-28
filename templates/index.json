@@ -1,0 +1,1144 @@
+{
+  "sections": {
+    "1f393fa7-303b-4ee6-86ff-b72e26145d0e": {
+      "type": "home-hero",
+      "blocks": {
+        "template--17275147452655__1f393fa7-303b-4ee6-86ff-b72e26145d0e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Продукти з адаптогенними грибами, що підсилюють мозок та зменшують стрес",
+            "heading_size": "h2"
+          }
+        },
+        "template--17275147452655__1f393fa7-303b-4ee6-86ff-b72e26145d0e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rüte — це інноваційна кава, матча, декаф та інші продукти, збагачені екстрактами грибів Рейші, Їжовик гребінчастий, Кордицепс та Траметес різнобарвний. <\/p><p>Ми підсилюємо продуктивність, креатив, енергію, якість сну та імунітет задля покращення ментального здоров’я. Полетіли знайомитися!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17275147452655__1f393fa7-303b-4ee6-86ff-b72e26145d0e-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Обрати",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "d4c8eb18-147f-4774-b7bf-9efe85d7ec8d": {
+          "type": "reviews",
+          "settings": {
+            "reviews_number": "675 Відгуків",
+            "reviews_text": "90% відчувають ефект вже за 2 тижні"
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147452655__1f393fa7-303b-4ee6-86ff-b72e26145d0e-heading-1",
+        "template--17275147452655__1f393fa7-303b-4ee6-86ff-b72e26145d0e-text-1",
+        "template--17275147452655__1f393fa7-303b-4ee6-86ff-b72e26145d0e-buttons-1",
+        "d4c8eb18-147f-4774-b7bf-9efe85d7ec8d"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/header1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-78c7d025-3374-4bc0-bca0-3f72d1821b1e",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "product_benefits_faq_ByNGfj": {
+      "type": "product-benefits-faq",
+      "blocks": {
+        "collapsible_row_znwLQJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Під час роботи маєш лазерний фокус, а не відволікаєшся на тікток",
+            "icon": "shopify:\/\/shop_images\/Frame_369.svg",
+            "row_content": "<p><strong>Японське дослідження підтверджує покращення когнітивних функцій з вживанням Lion's mane (їжовик гребінчастий).<\/strong><\/p><p><em>2019 р., Університету Кіндай<\/em><\/p><p>В Японії було проведено ключове дослідження, опубліковане під назвою «Effects of Hericium erinaceus on Cognitive Functions», яке виявило, що регулярне споживання Lion's Mane може значно покращити розумові здібності. У дванадцяти денному клінічному випробуванні учасники з легкими когнітивними порушеннями, які приймали екстракт цього гриба, показали поліпшення в тестах на пам'ять та увагу, в порівнянні з контрольною групою, що приймала плацебо. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QBPitk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Менше втомлюєшся та почуваєшся енергійним весь день",
+            "icon": "shopify:\/\/shop_images\/Frame_367.svg",
+            "row_content": "<p><strong>Підвищення витривалості та енергії з Cordyceps Sinensis<\/strong><\/p><p><em>2016 р., Japanese Journal of Physical Fitness and Sports Medicine<\/em><\/p><p>Cordyceps Sinensis — відомий як енергетичний та гриб антистаріння, давно використовується в традиційній китайській медицині. Сучасне дослідження у Китаї виявило його значний вплив на підвищення фізичної витривалості та ефективності метаболізму енергії, під час тривалих фізичних навантажень. В дослідженні взяли участь 36 чоловіків, які протягом двох тижнів приймали додатки Cordyceps Sinensis. Вимірювалися показники дихання, серцебиття, артеріального тиску та рівня молочної кислоти, а також аналізувалися рівні катехоламінів та гормону кортизолу. Результати показали, що учасники, які приймали додатки, відчули значне поліпшення у фізичних показниках та зниження втоми. Вони демонстрували зниження рівня молочної кислоти та підвищення рівню катехоламінів, які свідчать про більш ефективний метаболізм енергії. Ці висновки підтверджують, що Cordyceps Sinensis може бути ефективним засобом для покращення витривалості та зменшення втоми, особливо під час тривалих фізичних навантажень.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VExpGe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Не відчуваєш стресу, навіть коли надіслали правки",
+            "icon": "shopify:\/\/shop_images\/Frame_366.svg",
+            "row_content": "<p><strong>Зміцнення імунітету та антистресові властивості гриба Reishi<\/strong><\/p><p><em>2013 р., Індія, Department of Biotechnology, Maharishi Markandeshwar University, Mullana-Ambala, Haryana<\/em><\/p><p>Дослідження «Probing Lingzhi or Reishi medicinal mushroom Ganoderma lucidum» (higher Basidiomycetes) детально вивчає комплексні оздоровчі властивості гриба Reishi. З'ясовано, що гриб містить не тільки полісахариди і триптерпеноїди, але й інші важливі компоненти, які мають антиоксидантну дію, зокрема пептиди, білки, алкоголі та феноли. Ці складові сприяють покращенню імунної системи та захисту від оксидативного стресу, а також можуть зменшувати рівень стресу та покращувати нервову функцію. Reishi використовується для лікування широкого спектру захворювань, включаючи гепатопатію та артрит, і може бути корисним для підвищення стресостійкості та загального здоров'я.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rDeLLf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Не хворієш по 5 разів на рік, бо імунітет зміцнюється",
+            "icon": "shopify:\/\/shop_images\/Frame_368.svg",
+            "row_content": "<p><strong>Модулювати імунної відповіді та підсилювання імунної системи (Turkey Tail)<\/strong><\/p><p><em>2020 р., вчені з Університету Белграда та Медичного університету Варшави<\/em><\/p><p>Дослідження показало, що екзополісахариди з гриба Turkey Tail (Trametes versicolor) володіють антиоксидантною активністю. Ефективно нейтралізуючі вільні радикали та виявляючи хелатуючі властивості. Ці властивості пов'язані з високим вмістом бета-глюканів. Додатково, cEPS містять D-глюкозу та амінокислоти, які надають їм сприятливі харчові якості. Це підкреслює користь Turkey Tail для здоров'я, особливо для підтримки імунної системи та боротьби з оксидативним стресом.<\/p><p>Крім цього, гриби виступають як пребіотики, забезпечуючи живлення корисним бактеріям, які є необхідними для балансу мікробіоти кишківника. Це не лише поліпшує травлення, але й зміцнює імунну систему, яка має тісний зв'язок зі здоров'ям кишківника. Сполуки, що містяться у грибах Turkey Tail, такі як: полісахариди та тритерпени, відомі своєю здатністю стимулювати виділення ферментів травлення, полегшуючи процес розщеплення та всмоктування поживних речовин з їжі.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_znwLQJ",
+        "collapsible_row_QBPitk",
+        "collapsible_row_VExpGe",
+        "collapsible_row_rDeLLf"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Наукові дослідження — наша мова кохання. Ось як продукти з грибами здатні покращити твоє життя",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image": "shopify:\/\/shop_images\/unsplash_9vnACvX2748_055a1978-4a4b-45c3-bc1f-aa8e29bd09a9.png",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 76,
+        "padding_bottom": 44
+      }
+    },
+    "59a0cabc-794a-4394-a384-087242ce4008": {
+      "type": "home-logos",
+      "blocks": {
+        "template--17275147452655__59a0cabc-794a-4394-a384-087242ce4008-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Inc.__business_magazine__logo.svg"
+          }
+        },
+        "template--17275147452655__59a0cabc-794a-4394-a384-087242ce4008-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Guardian_2018.svg"
+          }
+        },
+        "template--17275147452655__59a0cabc-794a-4394-a384-087242ce4008-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_Insider_Logo.svg"
+          }
+        },
+        "938cf41e-d708-42c3-a33a-d583366f70c5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NewYorkTimes.svg"
+          }
+        },
+        "edbe5bb5-253d-43bb-8e4b-7a5557bb3ea2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Forbes_logo_1.svg"
+          }
+        },
+        "9f9fb014-5cb4-46fc-88e8-61d04340063f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vice_Logo.svg"
+          }
+        },
+        "95c1e2cc-4d15-4f03-a94f-91e80870de52": {
+          "type": "column",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147452655__59a0cabc-794a-4394-a384-087242ce4008-column-1",
+        "template--17275147452655__59a0cabc-794a-4394-a384-087242ce4008-column-2",
+        "template--17275147452655__59a0cabc-794a-4394-a384-087242ce4008-column-3",
+        "938cf41e-d708-42c3-a33a-d583366f70c5",
+        "edbe5bb5-253d-43bb-8e4b-7a5557bb3ea2",
+        "9f9fb014-5cb4-46fc-88e8-61d04340063f",
+        "95c1e2cc-4d15-4f03-a94f-91e80870de52"
+      ],
+      "settings": {
+        "title": "Ще про дію адаптогенних грибів пишуть",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 48
+      }
+    },
+    "2fb0d92b-42df-4db7-947c-4798aaf1ad1a": {
+      "type": "home-features",
+      "blocks": {
+        "template--17275147452655__2fb0d92b-42df-4db7-947c-4798aaf1ad1a-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_1_UAmap__1.svg",
+            "title": "Виготовлено в Україні"
+          }
+        },
+        "template--17275147452655__2fb0d92b-42df-4db7-947c-4798aaf1ad1a-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_4_Bioactive.svg",
+            "title": "10 000 мг активних речовин в кожній пачці"
+          }
+        },
+        "template--17275147452655__2fb0d92b-42df-4db7-947c-4798aaf1ad1a-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_3_Standardized.svg",
+            "title": "Сертифіковано в Україні"
+          }
+        },
+        "6ab070a8-a5d1-4a67-b629-5b45041b941e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_2_Nootrops.svg",
+            "title": "Природні Ноотропи та Адаптогени в середині"
+          }
+        },
+        "a058307f-f129-4e3c-a7dd-35b1e8f83570": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_5_NaturProduct.svg",
+            "title": "100% Натуральний продукт"
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147452655__2fb0d92b-42df-4db7-947c-4798aaf1ad1a-column-1",
+        "template--17275147452655__2fb0d92b-42df-4db7-947c-4798aaf1ad1a-column-2",
+        "template--17275147452655__2fb0d92b-42df-4db7-947c-4798aaf1ad1a-column-3",
+        "6ab070a8-a5d1-4a67-b629-5b45041b941e",
+        "a058307f-f129-4e3c-a7dd-35b1e8f83570"
+      ],
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/1_e794d8eb-d8a6-4da8-ac2e-7aa3c24cff0b.png",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "shopify:\/\/pages\/contact",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "image_with_text_dQR8Xj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ArpBQA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Наші продукти для тебе, якщо ти",
+            "heading_size": "h1"
+          }
+        },
+        "text_BTCggn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>- Часто вигораєш на роботі та перевтомлюєшся<\/p><p>- Постійно в розфокусі<\/p><p>- Страждаєш від тремору, нервозності чи тривожності після    звичайної кави<\/p><p>- Маєш проблеми зі сном чи травленнями<\/p><p>- Працюєш в креативній індустрії та потребуєш нових ідей<\/p><p>- Хочеш покращити пам’ять та когнітивні здібності<\/p><p>- Хочеш відчувати себе спокійно та бадьоро цілий день<\/p><p>- Намагаєшся якось втримувати кукуху після читання новин<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ArpBQA",
+        "text_BTCggn"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_8794_941718ac-6205-4c7b-aeec-dec331b7f39d.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "ac8b3c3e-d6cb-4aef-b341-de88d01eac98": {
+      "type": "home-products",
+      "settings": {
+        "title": "Знайомся ближче",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description-caffeine": "",
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 25,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "home_products_8UQneN": {
+      "type": "home-products",
+      "settings": {
+        "title": "Курс для продуктивності без стресу",
+        "heading_size": "h2",
+        "description": "<p>Замовляй одразу дві упаковки для улюблених напоїв! По-перше, так вигідніше. По-друге, їх вистачить на місяць і тоді ти точно помітиш покращення свого стану! <\/p>",
+        "show_description": false,
+        "description-caffeine": "",
+        "description_style": "body",
+        "collection": "курс-на-місяць",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9d577e82-5c04-4ded-a6ee-302f57dd63d2": {
+      "type": "home-ingredients",
+      "blocks": {
+        "template--17275147452655__9d577e82-5c04-4ded-a6ee-302f57dd63d2-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado.svg",
+            "title": "Kето"
+          }
+        },
+        "template--17275147452655__9d577e82-5c04-4ded-a6ee-302f57dd63d2-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-1.svg",
+            "title": "Paleo friendly"
+          }
+        },
+        "template--17275147452655__9d577e82-5c04-4ded-a6ee-302f57dd63d2-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-2.svg",
+            "title": "Веганський продукт"
+          }
+        },
+        "ec084242-36e6-4236-b976-71e19d1f66d3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-3.svg",
+            "title": "Без ГМО"
+          }
+        },
+        "410096e3-ca16-49cc-bc69-b0631f00db2e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-4.svg",
+            "title": "Без цукру"
+          }
+        },
+        "f9afcae7-1fd4-4cb4-8e07-969b72d18599": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-5.svg",
+            "title": "Без глютену"
+          }
+        },
+        "aae8df70-4004-44c1-a493-de29c5926cf0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-6.svg",
+            "title": "Без лактози"
+          }
+        },
+        "566bd282-70fb-40b8-b24a-696a560a47e3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-7.svg",
+            "title": "Без сої"
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147452655__9d577e82-5c04-4ded-a6ee-302f57dd63d2-column-1",
+        "template--17275147452655__9d577e82-5c04-4ded-a6ee-302f57dd63d2-column-2",
+        "template--17275147452655__9d577e82-5c04-4ded-a6ee-302f57dd63d2-column-3",
+        "ec084242-36e6-4236-b976-71e19d1f66d3",
+        "410096e3-ca16-49cc-bc69-b0631f00db2e",
+        "f9afcae7-1fd4-4cb4-8e07-969b72d18599",
+        "aae8df70-4004-44c1-a493-de29c5926cf0",
+        "566bd282-70fb-40b8-b24a-696a560a47e3"
+      ],
+      "settings": {
+        "title": "З любов’ю до всього інноваційного",
+        "paragraph1": "Ми фанати ефективних та швидких методів покращення ментального стану та рівня енергії. Любимо науку, AI, функціональні адаптогени та смачні щоденні ритуали.",
+        "paragraph2": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_HFV4Wn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Aafkf6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ми вже в GxBar!",
+            "heading_size": "h1"
+          }
+        },
+        "text_zAzeJm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ми раді повідомити, що продукція Rüte тепер доступна в GxBar! Відвідайте GxBar, щоб спробувати нашу унікальну каву та матчу з адаптогенними грибами, які покращують ваше ментальне здоров'я та підвищують енергію.<strong><br\/><br\/>Хочете дізнатись більше про нашу B2B пропозицію?<\/strong><br\/><br\/>Ми пропонуємо унікальні оптові умови для кав'ярень, IT-хабів, коворкінгів та великих компаній. Приєднуйтесь до нас та станьте частиною інноваційного руху!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_czDfVr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Дізнатись більше",
+            "button_link": "shopify:\/\/pages\/b2b",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Aafkf6",
+        "text_zAzeJm",
+        "button_czDfVr"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Capture-2024-08-09-114554.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-1",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b8f790eb-cb13-4367-8c60-1e9abb50661e": {
+      "type": "home_reviews",
+      "blocks": {
+        "0c0dbfd6-d063-4382-bed2-ae4a49a8c409": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_15.png",
+            "Text": "“Кава на смак зовсім не відрізняється від звичайної, та ще й корисна. Вагалась щодо смаку, але дякую за відгуки, де написано, що вона смачна!”",
+            "Name": "- Анастасія Затула"
+          }
+        },
+        "1419a259-a45a-41c4-a3cf-d06588b07009": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_16.png",
+            "Text": "“Зазвичай мені потрібно дві, або навіть три чашки кави на день для підтримання концентрації. Але з цією кавою мені вистачає ефекту на цілий день. Концентруватись дійсно стало набагато легше!”",
+            "Name": "- Христина Василюк"
+          }
+        },
+        "f8584119-9af8-42fd-b14c-5a6e83514762": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_17.png",
+            "Text": "“Чудовий смак та підтримка моєї ефективності – вражає! Не пошкодував про покупку!”",
+            "Name": "- Сергій Любов"
+          }
+        },
+        "column_rLjfcg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1508_oooo.plus.png",
+            "Text": "<strong>- Василиса Романова<\/strong>",
+            "Name": "\"Ця кава вирішила мою проблему з пошуком напою, який би був смачним і водночас не шкідливим для шлунка. Нарешті, я можу насолоджуватися кавою без кислотності та дискомфорту.\""
+          }
+        },
+        "column_wnCPPc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1346_oooo.plus.png",
+            "Text": "<strong>- Юлія Озерова<\/strong>",
+            "Name": "\"Моя постійна боротьба - знайти каву, яка не впливає на якість мого сну. З цією кавою я можу дозволити собі чашку навіть вдень і не хвилюватись, що це вплине на мій нічний відпочинок!\""
+          }
+        },
+        "column_djemHh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/347_oooo.plus.png",
+            "Text": "<strong>- Олена Кузнець<\/strong>",
+            "Name": "\"Я довго шукала каву, яка б заряджала мене енергією на весь робочий день без необхідності пити її кожні кілька годин. Цей сорт виявився ідеальним вибором, тримаючи мене у тонусі без постійних перерв на дозу кофеїну.\""
+          }
+        },
+        "column_n7NCBE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/216_oooo.plus.png",
+            "Text": "<strong>- Олексій Бойко<\/strong>",
+            "Name": "\"Довго шукав каву, яка б не провокувала тривожність після вживання. Ця кава стала ідеальним рішенням: вона заряджає енергією без звичайних побічних ефектів кофеїну.\""
+          }
+        },
+        "column_je7agk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1678_oooo.plus.png",
+            "Text": "<strong>- Дмитро Гончар<\/strong>",
+            "Name": "\"Знайти каву, яка б відповідала моїм веганським переконанням, було непросто. Цей варіант відмінно вписався в мої вимоги, пропонуючи якісний та етично вироблений продукт.\""
+          }
+        },
+        "column_8H4Twn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1137_oooo.plus.png",
+            "Text": "<strong>- Анастасія Крючкова<\/strong>",
+            "Name": "\"Мені потрібна була кава, яка не підвищує тиск, оскільки я страждаю на гіпертонію. Ця кава дозволила мені насолоджуватися смаком без ризику для здоров'я.\""
+          }
+        },
+        "column_VFcUfP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1965_oooo.plus.png",
+            "Text": "<strong>- Юлія Верба<\/strong>",
+            "Name": "\"Знайшла у матчі ідеальний спосіб зняти стрес після напруженого робочого дня. Вона допомагає мені розслабитися і відновити ментальний баланс.\""
+          }
+        }
+      },
+      "block_order": [
+        "0c0dbfd6-d063-4382-bed2-ae4a49a8c409",
+        "1419a259-a45a-41c4-a3cf-d06588b07009",
+        "f8584119-9af8-42fd-b14c-5a6e83514762",
+        "column_rLjfcg",
+        "column_wnCPPc",
+        "column_djemHh",
+        "column_n7NCBE",
+        "column_je7agk",
+        "column_8H4Twn",
+        "column_VFcUfP"
+      ],
+      "settings": {
+        "title": "Відгуки",
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "f3a35880-50be-469f-a060-c39ce99e1d3f": {
+      "type": "home-collections",
+      "blocks": {
+        "template--17275147452655__f3a35880-50be-469f-a060-c39ce99e1d3f-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mushroom-coffee"
+          }
+        },
+        "template--17275147452655__f3a35880-50be-469f-a060-c39ce99e1d3f-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "matcha"
+          }
+        },
+        "featured_collection_QhWcy6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "energy-without-coffeine"
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147452655__f3a35880-50be-469f-a060-c39ce99e1d3f-featured_collection-1",
+        "template--17275147452655__f3a35880-50be-469f-a060-c39ce99e1d3f-featured_collection-3",
+        "featured_collection_QhWcy6"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Спробуй зараз від 590 грн",
+        "str-price": "740 грн",
+        "description": "<p>Ми поважаємо твої смаки тому підготували для тебе каву без кофеїну та з кофеїном чи спробуй всі смаки, та зрозумій свої бажання <\/p>",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 92,
+        "padding_bottom": 92
+      }
+    },
+    "6026f086-19f9-408c-bb13-d5f082561202": {
+      "type": "home_story",
+      "blocks": {
+        "de6bfac2-e917-4902-8117-c7fd5d40b8b6": {
+          "type": "inline_richtext",
+          "settings": {
+            "text_item": "У Rüte ми прагнемо перевтілити щоденні ритуали в особливі моменти, збагачуючи їх інноваційними продуктами. Кожен наш продукт містить силу природних екстрактів - від ретельно відібраних рослин, до коренів та грибів. Ми віримо, що маленькі зміни у повсякденних звичках можуть мати величезний вплив на наш добробут."
+          }
+        },
+        "00b7c992-9d3e-4a1a-8af7-30353292efae": {
+          "type": "inline_richtext",
+          "settings": {
+            "text_item": "Привіт, мене звати Іван.Я — засновник Oddee Agency, а також співзасновник та візіонер Rute. Місія нашого бренду — покращувати фізичне та ментальне здоров’я людей через щоденні ритуали з інноваційними продуктами.  Наприклад, кавою чи матчею з адаптогенними грибами. Ритуал ранкової кави завжди був для мене особливим. Однак, з часом я зрозумів, що кофеїн має і свої негативні впливи. Це спонукало мене шукати способи отримувати натуральну енергію без шкоди для здоров'я. Мій особистий досвід з адаптогенами був дійсно переконливим. Після курсу вживання їжовика гребінчастого, я помітив значні покращення у своєму емоційному стані. Мій сон став глибшим, а здатність концентруватися на ідеях та пошуках інсайтів значно підвищилася. Це було наче пробудження нових можливостей для моєї креативності та продуктивності. Як керівник креативної агенції, я бачив, як стрес і вигорання впливають на мою команду. Ми почали приймати адаптогени, Їжовик та Рейші, які є повністю безпечними та легальними. У результаті всі побачили зменшення стресу та зростання продуктивності.Особливо вразив випадок з моїм дідусем. Коли його стан здоров'я погіршився, і він почав втрачати здатність орієнтуватися у просторі та часі, вживання їжовика допомогло йому структурувати свої думки та покращило пам’ять. Саме тому ми вирішили поєднати корисні екстракти грибів з улюбленими напоями та перетворити щоденні ритуали — на суперритуали."
+          }
+        }
+      },
+      "block_order": [
+        "de6bfac2-e917-4902-8117-c7fd5d40b8b6",
+        "00b7c992-9d3e-4a1a-8af7-30353292efae"
+      ],
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/IMG_3042_1.jpg",
+        "title": "«Чому гриби» або історія, як все почалося",
+        "button_text": "",
+        "button_link": "shopify:\/\/pages\/чому-rute-працює",
+        "padding_top": 65,
+        "padding_bottom": 58
+      }
+    },
+    "51af14aa-6335-4db6-bfae-a86d3bc9c159": {
+      "type": "home_support",
+      "blocks": {
+        "0af6fa0c-1caa-47b0-ad5d-5a364a21c335": {
+          "type": "column",
+          "settings": {
+            "Text": "Тут не буде розмов про соціальну відповідальність. Це — база. Просто, створюючи інноваційний продукт, ми одразу хочемо закласти у всю нашу діяльність — правильні сенси."
+          }
+        },
+        "b2e48b96-4b9a-45b1-87a1-fc098d6545c3": {
+          "type": "column",
+          "settings": {
+            "Text": "Тому 10% з прибутку ми будемо перераховувати на допомогу перевіреним фондам. А звітуватимемо про це в соцмережах (натяк, що саме час підписатися на @rute.superfood)"
+          }
+        }
+      },
+      "block_order": [
+        "0af6fa0c-1caa-47b0-ad5d-5a364a21c335",
+        "b2e48b96-4b9a-45b1-87a1-fc098d6545c3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_1010108089_d42b0976-318e-4004-b09f-27fb09e66239.jpg",
+        "title": "Ми (не) про social impact",
+        "link_text": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "padding_top": 36,
+        "padding_bottom": 48
+      }
+    },
+    "e3842da3-80cc-47b3-9297-acb5913645dc": {
+      "type": "home-ingredients-large",
+      "blocks": {
+        "template--17275147452655__e3842da3-80cc-47b3-9297-acb5913645dc-column-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_8375.jpg",
+            "title": "Turmeric",
+            "text": "<p>Lion's mane – це природний стимулятор мозку, ноотроп, що покращує пам'ять та фокус. Він містить особливі речовини, які захищають ваш мозок і допомагають йому краще працювати з віком, що збереже гостроту розуму та уважність.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17275147452655__e3842da3-80cc-47b3-9297-acb5913645dc-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lions_mane_01_1.png",
+            "title": "Їжовик гребінчастий",
+            "text": "<p>Їжовик гребінчастий був ключовим компонентом у раціоні буддистських монахів, які прагнули підвищити свою концентрацію та цілеспрямованість під час навчання та медитацій. Дарує внутрішній спокій та гостру уважність.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17275147452655__e3842da3-80cc-47b3-9297-acb5913645dc-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_114.png",
+            "title": "Рейші",
+            "text": "<p>У традиційній східній медицині його називають «гриб безсмертя». І справді, якщо всі хвороби від стресу, а гриб Рейші якраз його знижує, то це недалеко від правди. Він повертає глибокий сон, заспокоює нервову систему, працює краще, ніж розмальовка-антистрес (перевірено).<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "794a4f4d-dc35-4109-a43d-8320668df1eb": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_112.png",
+            "title": "Lucuma fruit powder",
+            "text": "<p>Лукума багата на антиоксиданти, клітковину, вуглеводи, вітаміни (особливо B3) та мінерали, такі як залізо, цинк, калій і кальцій. Вона відома своїм низьким глікемічним індексом, що допомагає регулювати рівень цукру в крові. Крім того, лукума підтримує здоров'я шкіри та загоєння ран, і її часто відзначають за протизапальні та серцево-судинні властивості.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qjjT6H": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_115.png",
+            "title": "Траметес різнобарвний",
+            "text": "<p>Захищає організм від хвороб завдяки своїм антимікробним властивостям. Підтримує здоров’я кишківника, сприяє нормальному травленню, зміцнює імунітет та покращує твій стан в цілому. Бо, як ми знаємо з книги «Розумний кишківник», здоров’я всього організму починається саме там. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f5a43025-9ea7-447a-aa1b-ebd9e54ae46e": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_111.png",
+            "title": "Chaga",
+            "text": "<p>Він походить з Австралії і набув популярності в усьому світі завдяки простоті використання та унікальному досвіду, який він надає, часто описується як більш обґрунтований і довготривалий, ніж тільки ДМТ. Ефекти Чанги залежать від конкретної комбінації трав і співвідношення ДМТ і МАОІ, що дозволяє користувачам адаптувати інтенсивність і тривалість свого досвіду.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e6154dd3-019f-46a9-8306-6d42f8849b87": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1010108044.png",
+            "title": "Кордицепс",
+            "text": "<p>Знайомся, твій натуральний та безпечний бустер стабільної енергії. Збільшує оксигенацію крові, внаслідок чого ти почуваєшся бадьоро, швидко відновлюєшся та закриваєш таски на ізі. Також покращує витривалість на тренуваннях, тому для спортіків — це must have!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147452655__e3842da3-80cc-47b3-9297-acb5913645dc-column-1",
+        "template--17275147452655__e3842da3-80cc-47b3-9297-acb5913645dc-column-3",
+        "template--17275147452655__e3842da3-80cc-47b3-9297-acb5913645dc-column-2",
+        "794a4f4d-dc35-4109-a43d-8320668df1eb",
+        "column_qjjT6H",
+        "f5a43025-9ea7-447a-aa1b-ebd9e54ae46e",
+        "e6154dd3-019f-46a9-8306-6d42f8849b87"
+      ],
+      "settings": {
+        "title": "Гриби, які ми додаємо в продукти Rüte",
+        "description": "Наша «фантастична четвірка» для покращення концентрації, пам’яті, імунітету та рівня енергії. Зустрічай!",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "81f1cf12-418d-4c68-9dd6-520fafb52ba7": {
+      "type": "home-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/coffee_drops.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "4eded37b-68af-423b-940f-bca874ea3551": {
+      "type": "home_power",
+      "blocks": {
+        "b625fd5a-6e23-47ea-93ef-cce05dfb5c53": {
+          "type": "column",
+          "settings": {
+            "Text": "“I wonder what the ocean is up to,” my friend Gene pondered aloud. “Tide in, tide out … what’s the game here?”He sounded simultaneously suspicious and intrigued. Shifting his gaze back and forth between me and the waves of the Pacific, he observed that the ocean had a slight sideways current, so that the water was slowly pulling up or down the beach rather than straight in and out."
+          }
+        },
+        "e8b76b63-60f1-432c-b916-ca62a1b1cb1c": {
+          "type": "column",
+          "settings": {
+            "Text": "All this was proof positive that the psilocybin had kicked in. I was feeling the magic, too, but for me, this manifested in a far less pensive form—namely, a big, toothy smile that would have looked right at home between two thumbs-up emojis. Like an oscillating fan with a happy face sticker on it, I rotated my guileless “Party on, dude!” grin in Gene’s direction."
+          }
+        },
+        "5007cd3e-a9dd-4a9c-aee9-06e234b29863": {
+          "type": "column",
+          "settings": {
+            "Text": "“I feel the way a dog must feel when he’s sticking his face out the window of a moving car,” I announced.Mind you, I’d taken a lower dose than Gene, and for good reason. Don’t let a little absurdist banter fool you—this was no mere chemical joyride. We were here to do some delicate soul surgery. “I feel the way a dog must feel when he’s sticking his face out the window of a moving car,” I announced."
+          }
+        }
+      },
+      "block_order": [
+        "b625fd5a-6e23-47ea-93ef-cce05dfb5c53",
+        "e8b76b63-60f1-432c-b916-ca62a1b1cb1c",
+        "5007cd3e-a9dd-4a9c-aee9-06e234b29863"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "The Power of Trip Sitting",
+        "subtitle": "I held space for a friend on a psilocybin flight … and it was amazing",
+        "author": "Damon Orion",
+        "data": "November 06, 2023",
+        "link_text": "Дізнатись більше",
+        "button_link": "shopify:\/\/products\/chocolate",
+        "color_scheme": "",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "featured_blog_qeMXMb": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Блог",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "f734f0bd-952b-4c4d-b1b5-008ab68f35e5": {
+      "type": "home-faq",
+      "blocks": {
+        "template--17275147452655__f734f0bd-952b-4c4d-b1b5-008ab68f35e5-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Чим продукти Rüte відрізняються від звичайних?",
+            "icon": "none",
+            "row_content": "<p>Наші продукти — здорова альтернатива для людей, що прагнуть бути продуктивними без стресу, тривоги та вигорання. Вони всі — з приставкою “супер”.<\/p><p>А все завдяки екстрактам адаптогенних грибів у складі, що мають безліч корисних властивостей. <\/p><p>Ось, наприклад, після звичайної кави людина може відчувати тривожність, тремор, нервозність, безсоння, розлади шлунку, різкий підйом енергії, а потім різкий спад. <br\/><br\/>А кава Rüte дарує стабільну енергію, гарний та глибокий сон, стан високої концентрації — бадьорість у поєднанні зі спокоєм!<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RHNdDi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Чому ви впевненені, що екстракти працюють?",
+            "icon": "none",
+            "row_content": "<p>Ми спираємося на понад 200 сучасних наукових досліджень, що підтверджують користь адаптогенних грибів. І часто пишемо про них у нашому блозі. Заходь почитати тут!<\/p>",
+            "page": ""
+          }
+        },
+        "template--17275147452655__f734f0bd-952b-4c4d-b1b5-008ab68f35e5-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Які інгредієнти використовує Rüte у своїх продуктах?",
+            "icon": "none",
+            "row_content": "<p>Екстракти грибів Їжовик гребінчастий, Рейші, Кордицепс та Траметес різнобарвний, а також — каву сорту арабіка, чай матча та сухі кокосові вершки високої якості.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4e9aQx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Чи можна вживати під час грудного вигодовування?",
+            "icon": "none",
+            "row_content": "<p>Ми рекомендуємо спершу проконсультуватися з лікарем, оскільки кожен організм має свої особливості в період вагітності чи грудного вигодовування.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_m99GHU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Чи містять наші гриби псилоцибін чи мухомори, і чи можуть вони викликати галюцинації?",
+            "icon": "none",
+            "row_content": "<p>Ні, жодних психоактивних речовин, лише натуральні, безпечні та сертифіковані в Україні інгредієнти.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17275147452655__f734f0bd-952b-4c4d-b1b5-008ab68f35e5-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Який час потрібен для того, щоб відчути вплив продукту?",
+            "icon": "none",
+            "row_content": "<p>Все залежить від індивідуальних особливостей організму, але в середньому ефект можна помітити вже за 2 тижні при умові щоденного вживання.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cbKCyg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Чому матча не викликає нервозності, на відміну від кави, хоча в ній більше кофеїну?",
+            "icon": "none",
+            "row_content": "<p>Це все завдяки L-теаніну у складі матчі — ця амінокислота сприяє розслабленню та збалансовує кофеїн.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17275147452655__f734f0bd-952b-4c4d-b1b5-008ab68f35e5-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Які гарантії якості дає Rüte?",
+            "icon": "none",
+            "row_content": "<p>Ми гарантуємо високу якість наших продуктів та сервісу, забезпечуючи повернення або обмін у разі необхідності.<\/p>",
+            "page": ""
+          }
+        },
+        "2552918f-807f-4e03-afa3-5ce3d9234404": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Які основні переваги вашого продукту?",
+            "icon": "none",
+            "row_content": "<p>Наш продукт забезпечує енергію та ясність розуму без кофеїнових побічних ефектів, завдяки унікальному поєднанню адаптогенних грибів та інших натуральних інгредієнтів.<\/p>",
+            "page": ""
+          }
+        },
+        "291e9f81-7c49-4cb6-a656-1447ca9fc542": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Чи безпечно вживати ваші продукти щодня?",
+            "icon": "none",
+            "row_content": "<p>Так, наші продукти розроблені для щоденного вживання, забезпечуючи баланс та підтримку організму при регулярному вживанні.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rwbmXg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Чи є у вас сертифікати?",
+            "icon": "none",
+            "row_content": "<p>Так, наш продукт пройшов якісну перевірку, і ми отримали всі необхідні дозволи на виробництво. Це гарантує, що наш продукт абсолютно безпечний для людини та повністю легальний. Ознайомитися з нашими сертифікатами якості ви можете, перейшовши за цим <a href=\"https:\/\/drive.google.com\/drive\/folders\/1rIT9XzDG14e7B_bBtYuWc75mlm-7wx1z?usp=drive_link\" target=\"_blank\" title=\"https:\/\/drive.google.com\/drive\/folders\/1rIT9XzDG14e7B_bBtYuWc75mlm-7wx1z?usp=drive_link\">посиланням<\/a>.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147452655__f734f0bd-952b-4c4d-b1b5-008ab68f35e5-collapsible_row-1",
+        "collapsible_row_RHNdDi",
+        "template--17275147452655__f734f0bd-952b-4c4d-b1b5-008ab68f35e5-collapsible_row-2",
+        "collapsible_row_4e9aQx",
+        "collapsible_row_m99GHU",
+        "template--17275147452655__f734f0bd-952b-4c4d-b1b5-008ab68f35e5-collapsible_row-3",
+        "collapsible_row_cbKCyg",
+        "template--17275147452655__f734f0bd-952b-4c4d-b1b5-008ab68f35e5-collapsible_row-4",
+        "2552918f-807f-4e03-afa3-5ce3d9234404",
+        "291e9f81-7c49-4cb6-a656-1447ca9fc542",
+        "collapsible_row_rwbmXg"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Спитай нас що завгодно",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "scheme-de790d46-03d4-4438-a1bd-7c2ed31225d0",
+        "container_color_scheme": "scheme-de790d46-03d4-4438-a1bd-7c2ed31225d0",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/Desktop_-_1.png",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 60,
+        "padding_bottom": 48
+      }
+    },
+    "679e8b83-065b-452d-b800-3fcaf8759cdd": {
+      "type": "home_images",
+      "blocks": {
+        "f2c6de19-dc4c-4c62-84ce-1281cefee290": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4964.heic"
+          }
+        },
+        "2d62f420-67bb-45c3-947f-a30a516ba2b6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo_2024-03-01_18.43.18.jpg"
+          }
+        },
+        "4c7c5eb3-a72d-4d19-9989-56c2239b421c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_25728.jpg"
+          }
+        },
+        "2228a727-f933-4086-889d-829083b8ebc1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2788.jpg"
+          }
+        },
+        "column_nzxXrw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4958.jpg"
+          }
+        },
+        "column_NjYP4p": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photod_2024-03-01_18.43.21.jpg"
+          }
+        },
+        "column_MRaFF4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7653_2.heic"
+          }
+        },
+        "column_QmaD3d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4957.jpg"
+          }
+        },
+        "column_RqrDTx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2813.heic"
+          }
+        },
+        "column_dwgXLz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2725.heic"
+          }
+        }
+      },
+      "block_order": [
+        "f2c6de19-dc4c-4c62-84ce-1281cefee290",
+        "2d62f420-67bb-45c3-947f-a30a516ba2b6",
+        "4c7c5eb3-a72d-4d19-9989-56c2239b421c",
+        "2228a727-f933-4086-889d-829083b8ebc1",
+        "column_nzxXrw",
+        "column_NjYP4p",
+        "column_MRaFF4",
+        "column_QmaD3d",
+        "column_RqrDTx",
+        "column_dwgXLz"
+      ],
+      "settings": {
+      }
+    },
+    "fa1b0391-eb0e-4051-9bed-543bc87bad86": {
+      "type": "newsletter",
+      "blocks": {
+        "208ad791-0719-4c33-98de-a8dff442cb48": {
+          "type": "heading-text",
+          "settings": {
+            "heading1": "Приєднуйся до нашого Mushroom Social Club",
+            "text1": "<p>Доєднуйся до нашого закритого ком`юніті — спілкуйся у чаті, знаходь своїх креативних та відкритих людей, отримуй знижки на наші продукти та ексклюзивний контент!<\/p>"
+          }
+        },
+        "template--17275147452655__fa1b0391-eb0e-4051-9bed-543bc87bad86-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "208ad791-0719-4c33-98de-a8dff442cb48",
+        "template--17275147452655__fa1b0391-eb0e-4051-9bed-543bc87bad86-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_blog_4LRxGK": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "1f393fa7-303b-4ee6-86ff-b72e26145d0e",
+    "product_benefits_faq_ByNGfj",
+    "59a0cabc-794a-4394-a384-087242ce4008",
+    "2fb0d92b-42df-4db7-947c-4798aaf1ad1a",
+    "image_with_text_dQR8Xj",
+    "ac8b3c3e-d6cb-4aef-b341-de88d01eac98",
+    "home_products_8UQneN",
+    "9d577e82-5c04-4ded-a6ee-302f57dd63d2",
+    "image_with_text_HFV4Wn",
+    "b8f790eb-cb13-4367-8c60-1e9abb50661e",
+    "f3a35880-50be-469f-a060-c39ce99e1d3f",
+    "6026f086-19f9-408c-bb13-d5f082561202",
+    "51af14aa-6335-4db6-bfae-a86d3bc9c159",
+    "e3842da3-80cc-47b3-9297-acb5913645dc",
+    "81f1cf12-418d-4c68-9dd6-520fafb52ba7",
+    "4eded37b-68af-423b-940f-bca874ea3551",
+    "featured_blog_qeMXMb",
+    "f734f0bd-952b-4c4d-b1b5-008ab68f35e5",
+    "679e8b83-065b-452d-b800-3fcaf8759cdd",
+    "fa1b0391-eb0e-4051-9bed-543bc87bad86",
+    "featured_blog_4LRxGK"
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "main-collection-product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 20,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 68
+      }
+    },
+    "938884cc-1d67-4de5-8d23-d6dcba7d4150": {
+      "type": "home-features",
+      "blocks": {
+        "template--17275147387119__938884cc-1d67-4de5-8d23-d6dcba7d4150-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_1_UAmap__1.svg",
+            "title": "Виготовлено в Україні"
+          }
+        },
+        "template--17275147387119__938884cc-1d67-4de5-8d23-d6dcba7d4150-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_4_Bioactive.svg",
+            "title": "10 000 мг активних речовин в кожній пачці"
+          }
+        },
+        "template--17275147387119__938884cc-1d67-4de5-8d23-d6dcba7d4150-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_3_Standardized.svg",
+            "title": "Сертифіковано в Україні"
+          }
+        },
+        "0f6f264a-1d7b-402d-9d76-aab3e0a3ff81": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_2_Nootrops.svg",
+            "title": "Природні Ноотропи та Адаптогени в середині"
+          }
+        },
+        "80748079-33ab-455c-abdb-bf160066a1f7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mM_icon_5_NaturProduct.svg",
+            "title": "Природні Ноотропи та Адаптогени в середині"
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147387119__938884cc-1d67-4de5-8d23-d6dcba7d4150-column-1",
+        "template--17275147387119__938884cc-1d67-4de5-8d23-d6dcba7d4150-column-2",
+        "template--17275147387119__938884cc-1d67-4de5-8d23-d6dcba7d4150-column-3",
+        "0f6f264a-1d7b-402d-9d76-aab3e0a3ff81",
+        "80748079-33ab-455c-abdb-bf160066a1f7"
+      ],
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/Frame_1010108037.png",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c051844a-dcf2-4895-9331-363433eea023": {
+      "type": "home-ingredients",
+      "blocks": {
+        "template--17275147387119__c051844a-dcf2-4895-9331-363433eea023-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado.svg",
+            "title": "Кето"
+          }
+        },
+        "template--17275147387119__c051844a-dcf2-4895-9331-363433eea023-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-1.svg",
+            "title": "Paleo friendly"
+          }
+        },
+        "template--17275147387119__c051844a-dcf2-4895-9331-363433eea023-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-2.svg",
+            "title": "Веганський продукт"
+          }
+        },
+        "a03a1053-8b91-4e13-a431-80d6e2912953": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-3.svg",
+            "title": "Без ГМО"
+          }
+        },
+        "3965540a-50ef-4b75-ac9d-ec73d380dfec": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-4.svg",
+            "title": "Без цукру"
+          }
+        },
+        "e06e0ebc-bb1d-433d-b63a-71ceefb1fe62": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-5.svg",
+            "title": "Без глютену"
+          }
+        },
+        "95a9baa4-713d-48a7-9047-e68955e64fc6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-6.svg",
+            "title": "Без лактози"
+          }
+        },
+        "42181a77-4b88-484e-a870-e4f5fe1be95e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-park-outline_avocado-7.svg",
+            "title": "Без сої"
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147387119__c051844a-dcf2-4895-9331-363433eea023-column-1",
+        "template--17275147387119__c051844a-dcf2-4895-9331-363433eea023-column-2",
+        "template--17275147387119__c051844a-dcf2-4895-9331-363433eea023-column-3",
+        "a03a1053-8b91-4e13-a431-80d6e2912953",
+        "3965540a-50ef-4b75-ac9d-ec73d380dfec",
+        "e06e0ebc-bb1d-433d-b63a-71ceefb1fe62",
+        "95a9baa4-713d-48a7-9047-e68955e64fc6",
+        "42181a77-4b88-484e-a870-e4f5fe1be95e"
+      ],
+      "settings": {
+        "title": "Енергія. Фокус. Імунітет.",
+        "paragraph1": "Кожен екстракт у нашій іноваційній каві був уважно відібраний за його унікальні корисні властивості, щоб підтримати твоє фізичне та психічне здоров’я. Важливий критерій відбору - це ефективність, доказова база. Розмішай у воді, розслабся та досліджуй як змінються кожен день твоя концентрація. Це й буде твій покращений раноквий ритуал.",
+        "paragraph2": "Інгрідієнти: RUTE Organic Mushroom Blend (Cordyceps, Lion's Mane, Reishi, Shiitake, Turkey Tail, King Trumpet), Organic Arabica Coffee, Organic MCT Oil, Organic Coconut Milk",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "45b10f57-acf2-4f0f-97fe-8161264be9f4": {
+      "type": "home-logos",
+      "blocks": {
+        "template--17275147387119__45b10f57-acf2-4f0f-97fe-8161264be9f4-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Inc.__business_magazine__logo.svg"
+          }
+        },
+        "template--17275147387119__45b10f57-acf2-4f0f-97fe-8161264be9f4-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Guardian_2018.svg"
+          }
+        },
+        "template--17275147387119__45b10f57-acf2-4f0f-97fe-8161264be9f4-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_Insider_Logo.svg"
+          }
+        },
+        "74bf292a-379d-485f-b016-95d06a1e50d4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NewYorkTimes.svg"
+          }
+        },
+        "c65772dc-1f42-4937-91da-fcf7ba2923c1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Forbes_logo_1.svg"
+          }
+        },
+        "b93cbb42-3402-43d2-a425-4493acd212bd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vice_Logo.svg"
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147387119__45b10f57-acf2-4f0f-97fe-8161264be9f4-column-1",
+        "template--17275147387119__45b10f57-acf2-4f0f-97fe-8161264be9f4-column-2",
+        "template--17275147387119__45b10f57-acf2-4f0f-97fe-8161264be9f4-column-3",
+        "74bf292a-379d-485f-b016-95d06a1e50d4",
+        "c65772dc-1f42-4937-91da-fcf7ba2923c1",
+        "b93cbb42-3402-43d2-a425-4493acd212bd"
+      ],
+      "settings": {
+        "title": "Вже читали на",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-de790d46-03d4-4438-a1bd-7c2ed31225d0",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "451fcdd6-57bc-43a2-8186-9b071de02b7b": {
+      "type": "newsletter",
+      "blocks": {
+        "template--17275147387119__451fcdd6-57bc-43a2-8186-9b071de02b7b-heading-text-1": {
+          "type": "heading-text",
+          "settings": {
+            "heading1": "Приєднуйся до Rute",
+            "text1": "<p>Будь першим, хто дізнається про акції, новинки та останні новини. Отримай 15% знижки на свою першу покупку.<\/p>"
+          }
+        },
+        "template--17275147387119__451fcdd6-57bc-43a2-8186-9b071de02b7b-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147387119__451fcdd6-57bc-43a2-8186-9b071de02b7b-heading-text-1",
+        "template--17275147387119__451fcdd6-57bc-43a2-8186-9b071de02b7b-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-de790d46-03d4-4438-a1bd-7c2ed31225d0",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "main-collection-product-grid",
+    "938884cc-1d67-4de5-8d23-d6dcba7d4150",
+    "c051844a-dcf2-4895-9331-363433eea023",
+    "45b10f57-acf2-4f0f-97fe-8161264be9f4",
+    "451fcdd6-57bc-43a2-8186-9b071de02b7b"
+  ]
+}

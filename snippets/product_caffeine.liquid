@@ -1,0 +1,23 @@
+<div class="product-roasting-wrapper">
+    <div>
+      <h4 class="product-roasting-title">Caffeine level</h4>
+      <p class="product-caffeine-subtitle">{{ product.metafields.custom.amount_of_caffeine }}</p>
+    </div>
+    <div class="product-roasting-overlay">
+      <div class="product-roasting-variants">
+        <div class="{% if product.metafields.custom.caffeine_decaf == true %}active{% endif %} product-roasting-variant-wrapper product-caffeine-wrapper">
+          <p class="product-roasting-variant-text">Decaf</p> 
+        </div>
+        <div class="{% if product.metafields.custom.caffeine_half_caf == true %}active{% endif %} product-roasting-variant-wrapper  product-caffeine-wrapper">
+          <p class="product-roasting-variant-text">Half Caf</p> 
+        </div>
+        <div class="{% if product.metafields.custom.caffeine_red_caf == true %}active{% endif %} product-roasting-variant-wrapper  product-caffeine-wrapper">
+          <p class="product-roasting-variant-text">Reg Caf</p> 
+        </div>
+        <div class="{% if product.metafields.custom.caffeine_high_caf == true %}active{% endif %} product-roasting-variant-wrapper  product-caffeine-wrapper">
+          <p class="product-roasting-variant-text">High Caf</p> 
+        </div>
+      </div>
+      <hr>
+    </div>
+  </div>

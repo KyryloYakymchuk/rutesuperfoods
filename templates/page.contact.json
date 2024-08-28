@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 48,
+        "padding_bottom": 64
+      }
+    },
+    "a3386b33-7af3-4246-aa08-8104d52bc6d2": {
+      "type": "contact-hero",
+      "blocks": {
+        "8bfd50c3-b47a-4e09-b5c5-f9e2cbe54dd3": {
+          "type": "contact-item",
+          "settings": {
+            "title": "Адреса та служба турботи MindMe",
+            "description": "<p>Україна, 49000, Дніпро, вул. Будівельників 34<\/p>"
+          }
+        },
+        "39874d1b-9aca-43d3-82e6-c012cd4b6109": {
+          "type": "contact-item",
+          "settings": {
+            "title": "Email:",
+            "description": "<p><a href=\"mailto:rutesuperfood@gmail.com\" target=\"_blank\" title=\"mailto:rutesuperfood@gmail.com\">rutesuperfood@gmail.com<\/a><\/p>"
+          }
+        },
+        "94cc5f04-5966-4a59-abdc-85715cf7e056": {
+          "type": "contact-item",
+          "settings": {
+            "title": "Телефон:",
+            "description": "<p><a href=\"tel:+380960182407\" target=\"_blank\" title=\"tel:+380960182407\">+380 96 018 24 07<\/a><\/p>"
+          }
+        },
+        "ec7e75c8-dac7-4195-9d91-d4ad530f12a7": {
+          "type": "contact-item",
+          "settings": {
+            "title": "Години роботи:",
+            "description": "<p>Пн - Пт 10:00 - 18:00<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8bfd50c3-b47a-4e09-b5c5-f9e2cbe54dd3",
+        "39874d1b-9aca-43d3-82e6-c012cd4b6109",
+        "94cc5f04-5966-4a59-abdc-85715cf7e056",
+        "ec7e75c8-dac7-4195-9d91-d4ad530f12a7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_1010108091.jpg",
+        "title": "Як ми можемо вам допомогти?",
+        "description": "<p>Якщо у вас є запитання, ви можете написати у нашу службу турботи. Також ми раді отримати відгуки на наші продукти, або ж просто послухати історії, якими ви хочете поділитись з нами.<\/p>",
+        "button_text": "Популярні запитання",
+        "button_link": "shopify:\/\/pages\/faq",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "078e0b60-a580-4f85-a919-ca1296c4fc00": {
+      "type": "newsletter",
+      "blocks": {
+        "template--17275147583727__078e0b60-a580-4f85-a919-ca1296c4fc00-heading-text-1": {
+          "type": "heading-text",
+          "settings": {
+            "heading1": "Приєднуйся до Rute",
+            "text1": "<p>Будь першим, хто дізнається про акції, новинки та останні новини. Отримай 15% знижки на свою першу покупку.<\/p>"
+          }
+        },
+        "template--17275147583727__078e0b60-a580-4f85-a919-ca1296c4fc00-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147583727__078e0b60-a580-4f85-a919-ca1296c4fc00-heading-text-1",
+        "template--17275147583727__078e0b60-a580-4f85-a919-ca1296c4fc00-email_form-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-de790d46-03d4-4438-a1bd-7c2ed31225d0",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a3386b33-7af3-4246-aa08-8104d52bc6d2",
+    "078e0b60-a580-4f85-a919-ca1296c4fc00"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "091582c9-958f-4103-bf1b-ec4e49c55882": {
+          "type": "content-custom",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Logo.svg",
+            "subtext1": "<p>Твій Mushroom Social Club, що підсилює креативність, продуктивність, енергію, здоров'я та якість життя.<\/p>",
+            "show_social": true,
+            "hours": "<p>Час роботи Пн.-Пт. 10:00-18:00<\/p>"
+          }
+        },
+        "6b9f52c4-49de-4b2f-8ec0-3d13eb87eb49": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Переглянути продукти",
+            "menu": "footer-2"
+          }
+        },
+        "6b432d2a-0719-47d7-bf49-4db24ddd2c71": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Дізнатися більше",
+            "menu": "footer-1"
+          }
+        },
+        "5e47b593-5426-4866-877f-236b767af50b": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Підтримка",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "091582c9-958f-4103-bf1b-ec4e49c55882",
+        "6b9f52c4-49de-4b2f-8ec0-3d13eb87eb49",
+        "6b432d2a-0719-47d7-bf49-4db24ddd2c71",
+        "5e47b593-5426-4866-877f-236b767af50b"
+      ],
+      "settings": {
+        "pre-title": "Покращуй свої улюблені щоденні ритуали разом з Rüte ☕️🍵",
+        "pre-btn-link-text": "Магазин",
+        "pre-btn-link": "shopify:\/\/collections",
+        "color_scheme": "inverse",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "copyright": "Rute. Усі права захищені. Продукти, які продаються на цьому вебсайті, не призначені для діагностики, лікування чи запобігання будь-яким захворюванням. Інформація, надана цим вебсайтом або цією компанією, не замінює особисту консультацію з вашим лікарем і не є індивідуальною медичною консультацією.",
+        "padding_top": 44,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,0 +1,129 @@
+<div class="why-philosophy color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
+  <div class="page-width">
+      <div class="">
+        {%- unless section.settings.title == blank -%}
+            <h2 class="why-philosophy-title">
+              {{ section.settings.title }}
+            </h2>
+        {%- endunless -%}
+        {%- if section.settings.description != blank -%}
+        <p class="">
+          {{ section.settings.description }}
+        </p>
+        {%- endif -%}
+        <div class="why-philosophy-items-overlay">     
+          {%- for block in section.blocks -%}
+              <div class="why-philosophy-item">
+                {%- if block.settings.title != blank -%}
+                   <h4 class="">{{ block.settings.title }}</h4>
+                {% endif %}
+                {%- if block.settings.description != blank -%}
+                   <p class="">{{ block.settings.description }}</p>
+                {% endif %}
+              </div>
+          {%- endfor -%}         
+        </div>
+        <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_text }}</a>
+      </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Why rute philosophy",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "title",
+        "default": "Як ми можемо вам допомогти?",
+        "label": "Product about title"
+      },
+      {
+        "type": "richtext",
+        "id": "description",
+        "label": "Product about description"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "background-1"
+      },
+      {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 64
+    }
+    ],
+      "blocks": [
+    {
+      "type": "contact-item",
+      "name": "Contact item",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "default": "Email:",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>rute@rute.coffee</p>"
+        }
+      ]
+    }
+      ],
+    "presets": [
+      {
+        "name": "Why rute philosophy"
+      }
+    ]
+  }
+{% endschema %}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}

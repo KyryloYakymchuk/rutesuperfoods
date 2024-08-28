@@ -1,0 +1,39 @@
+<div class="product-roasting-wrapper">
+    <h4 class="product-roasting-title">Ступінь обсмаження</h4>
+    <div class="product-roasting-variants">
+      <div class="{% if product.metafields.custom.roasting_light == true %}active{% endif %} product-roasting-variant-wrapper">
+        <p class="product-roasting-variant-text">Light</p> 
+      </div>
+      <div class="{% if product.metafields.custom.roasting_medium == true %}active{% endif %} product-roasting-variant-wrapper">
+        <p class="product-roasting-variant-text">Medium</p> 
+      </div>
+      <div class="{% if product.metafields.custom.roasting_dark == true %}active{% endif %} product-roasting-variant-wrapper">
+        <p class="product-roasting-variant-text">Dark</p> 
+      </div>
+    </div>
+  </div>
+
+
+<!-- <div class="product-roasting-wrapper">
+    <h4 class="product-roasting-title">Ступінь обсмаження</h4>
+    <div class="product-roasting-variants">
+      {% for product_roasting in product.metafields.custom.product_roasting.value %}
+      <div class="{% if product_roasting.true_or_false == true %}active{% endif %} product-roasting-variant-wrapper">
+        <p class="product-roasting-variant-text">{{ product_roasting.type_of_roasting }}</p> 
+      </div>
+      {% endfor %}
+    </div>
+  </div> -->
+
+
+  <!-- <div class="product-roasting-wrapper">
+    <h4 class="product-roasting-title">Ступінь обсмаження</h4>
+    <div class="product-roasting-variants">
+      {% for product_roasting in shop.metaobjects.product_roasting.values %}
+      <div class="{% if product_roasting.true_or_false == true %}active{% endif %} product-roasting-variant-wrapper">
+        <p class="product-roasting-variant-text">{{ product_roasting.type_of_roasting }}</p> 
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+ -->

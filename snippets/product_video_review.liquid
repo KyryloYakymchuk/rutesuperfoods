@@ -1,0 +1,23 @@
+{%- if product.metafields.custom.ugc_videos.value != blank -%}
+<div class="video_review">
+  <p class="video_review_title"></p>
+  <div class="video_review_slider">
+      {% for ugc_videos in product.metafields.custom.ugc_videos.value %}
+          <a href="{{ ugc_videos.video | file_url }}" data-fancybox="video" class="video_review_item fancybox" style="background-image: url({{ ugc_videos.thumbnail | image_url }});" class="video_review_preview)">
+            <img src="https://cdn.shopify.com/s/files/1/0679/1285/9887/files/ph_play-fill.svg?v=1705071665" class="video_review_play">
+          </a>
+      {% endfor %}
+  </div>
+</div>
+{%- endif -%}
+
+<script>
+  $(document).ready(function(){
+  $('.video_review_slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    prevArrow: '<button type="button" class="left"></button>',
+    nextArrow: '<button type="button" class="right"></button>'
+  });
+});
+</script>

@@ -1,0 +1,17 @@
+{% assign main_review = product.metafields.custom.main_review.value %}
+  {% if main_review.name != blank %}
+    <div class="product_response">
+      <div class="product_response_head">
+          <img src="{{ main_review.user_image | image_url }}" class="product_response_head_image">
+          <div class="product_response_head_text">
+            <p class="product_response_head_name">{{ main_review.name }}</p>
+            {% if main_review.verified == true %}
+              <p class="product_response_head_verify">Верифікований покупець <img src="https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Vector.svg?v=1705070832" class="product_response_head_verify_icon"></p>
+            {% endif %}
+          </div>
+      </div>
+      <div class="product_response_content">
+        <p>{{ main_review.description }}</p>
+      </div>
+    </div>
+  {% endif %}

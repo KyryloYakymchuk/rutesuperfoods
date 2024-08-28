@@ -1,0 +1,78 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "ac4b66aa-1148-4c41-b5d1-4f66f17d9ad2": {
+      "type": "announcement-custom",
+      "blocks": {
+        "40f9ec10-89f2-4edc-b526-ae17902976da": {
+          "type": "links",
+          "settings": {
+            "link1-label": "+38 (096) 018 24 07",
+            "link1": "tel:+380960182407",
+            "link2-label": "rutesuperfood@gmail.com",
+            "link2": "mailto:rutesuperfood@gmail.com"
+          }
+        },
+        "0429f34a-f32d-4cbf-9f41-5a5942a6d479": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>🎁 Вжух! Роби замовлення від 900 грн та отримуй безкоштовну доставку!  🚚 <\/h5>",
+            "link3-label": "",
+            "link3": ""
+          }
+        },
+        "e229621e-853b-4ead-81e7-5450d9ede6eb": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>Made in Ukraine 🇺🇦<\/h6>",
+            "link3-label": "",
+            "link3": ""
+          }
+        }
+      },
+      "block_order": [
+        "40f9ec10-89f2-4edc-b526-ae17902976da",
+        "0429f34a-f32d-4cbf-9f41-5a5942a6d479",
+        "e229621e-853b-4ead-81e7-5450d9ede6eb"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": ""
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "top-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "drawer",
+        "sticky_header_type": "always",
+        "show_line_separator": false,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "background-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 24,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "modal_iVfehj": {
+      "type": "modal",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_1010108091.jpg",
+        "title": "-10% на перше замовлення і безкоштовна доставка",
+        "description": "Отримуй знижки та умови на унікальні пропозиції першим"
+      }
+    }
+  },
+  "order": [
+    "ac4b66aa-1148-4c41-b5d1-4f66f17d9ad2",
+    "header",
+    "modal_iVfehj"
+  ]
+}

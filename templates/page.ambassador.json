@@ -1,0 +1,649 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_DLBYzM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NRUF6T": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Стань Амбасадором Rüte!<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_iUAeEq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Отримуй ексклюзивні продукти щомісяця, експериментуй з їхніми перевагами та поділися досвідом зі своєю спільнотою. Приєднуйся до нашої місії — розповідай про силу функціональних грибів, які змінюють життя на краще. Для твоїх підписників ми згенеруємо промокод на додаткову знижку, щоб вони також могли відчути всі переваги наших продуктів.<\/p>"
+          }
+        },
+        "button_NxWXCX": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Отримати тестові зразки",
+            "button_link": "#contact-form-link",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NRUF6T",
+        "text_iUAeEq",
+        "button_NxWXCX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_qiwmX3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bxNQkF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Про Нас<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_irqtVp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rüte – це бренд, який поєднує натуральні інгредієнти та сучасні наукові досягнення, щоб створювати продукти для підтримки ментального та фізичного здоров'я. Ми віримо в силу адаптогенних грибів та їх здатність покращувати якість життя. Наша місія – допомагати людям робити щоденні ритуали корисними та приємними, підтримуючи здоровий спосіб життя.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_YmGd39": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "#contact-form-link",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bxNQkF",
+        "text_irqtVp",
+        "button_YmGd39"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_41f7f211-e1d7-42cc-a6e4-088230ac0e1e.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-1",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_Encz6B": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iaLpbp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Чому Це Важливо<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_aHExK9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Сьогодні, як ніколи раніше, важливо підтримувати своє ментальне та фізичне здоров'я. Наші продукти, збагачені адаптогенними грибами, допомагають зменшити стрес, покращити концентрацію та підтримати загальне благополуччя. Ми прагнемо створити спільноту, яка розділяє наші цінності та допомагає поширювати ці знання серед інших.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_HnaLcE": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "#contact-form-link",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iaLpbp",
+        "text_aHExK9",
+        "button_HnaLcE"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2_aa734221-36e4-4417-bd27-a68fa3dbd1b1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-1",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_tCUfN8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rA6Hbk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Чому гриби?",
+            "heading_size": "h1"
+          }
+        },
+        "text_iXMbCY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>- У сучасному світі ми часто стикаємось зі стресом, розфокусуванням, поганим сном та апатією.<\/p><p>- Продукти з адаптогенними грибами можуть допомогти вирішити ці проблеми, забезпечуючи стабільну енергію, покращення когнітивних функцій та зміцнення імунітету.<\/p>"
+          }
+        },
+        "button_Ln793x": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rA6Hbk",
+        "text_iXMbCY",
+        "button_Ln793x"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_9TdBGM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_xrMd4C": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_eedde032-c305-4be4-aab9-9c3ba66f6bb4.png",
+            "title": "<strong>Натуральність<\/strong>",
+            "text": "<p>Ми використовуємо тільки натуральні інгредієнти, що підтримують здоров'я.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jrbMJE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_17d93ad0-8fe2-4066-afe8-543a31abcd97.png",
+            "title": "<strong>Інновації<\/strong>",
+            "text": "<p>Ми поєднуємо традиційні знання та сучасні наукові досягнення.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JQ4YK7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_51aa6545-f72d-41ad-9755-7fdfac672a26.png",
+            "title": "<strong>Ментальне Здоров'я<\/strong>",
+            "text": "<p>Підтримка ментального та фізичного благополуччя є нашою головною метою.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6Qptaa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_c6ed1c80-37d5-4ecc-a522-861a1b7405d3.png",
+            "title": "<strong>Суперритуали<\/strong>",
+            "text": "<p>Створюємо продукти для корисних щоденних ритуалів.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_xrMd4C",
+        "column_jrbMJE",
+        "column_JQ4YK7",
+        "column_6Qptaa"
+      ],
+      "settings": {
+        "title": "<strong>Цінності Rüte<\/strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "#contact-form-link",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_jJfzAE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hcTTH4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Програма Амбасадорства<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_KBpJQg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Запрошуємо вас приєднатися до нашої програми амбасадорства та стати частиною нашої місії. Якщо ви бізнес-коуч, йога-майстер, організатор ретрітів або лідер думок, який розділяє наші цінності, ця програма саме для вас.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hcTTH4",
+        "text_KBpJQg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_RjGUGL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3yDJ6E": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Що Ми Пропонуємо<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_gcn9LP": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_3yDJ6E",
+        "text_gcn9LP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 12
+      }
+    },
+    "multirow_YzyUUm": {
+      "type": "multirow",
+      "blocks": {
+        "row_WmYPie": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_8f244620-91b3-4637-85fa-5b7a9830e9de.png",
+            "caption": "",
+            "heading": "<strong>Знижка для Спільноти<\/strong>",
+            "text": "<ul><li><strong>Промо код на 10% знижки, який діє на будь-який наш товар<\/strong> для підписників, учнів та клієнтів амбасадора.<\/li><li>Амбасадор отримує <strong>200 гривень з кожної проданої пачки<\/strong> за використання його промокоду. <\/li><\/ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_pR3Wb8": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_cd357ce4-784e-46ec-a2fc-22a9165a2b88.png",
+            "caption": "",
+            "heading": "<strong>Контент та Підтримка<\/strong>",
+            "text": "<ul><li>Доступ до ексклюзивного контенту, включаючи нові продукти та навчальні матеріали.<\/li><li>Підтримка з боку нашої команди для організації спільних заходів, ретрітів та інших активностей.<\/li><\/ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_XbqLNy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_c885186d-3f81-49e7-8e10-a9ebf3fe8817.png",
+            "caption": "",
+            "heading": "<strong>Статус Амбасадора<\/strong>",
+            "text": "<ul><li>Безкоштовні зразки нових продуктів для тестування.<\/li><li>Запрошення на ексклюзивні заходи та події Rute. (в майбутньому)<\/li><li>Спеціальні пропозиції та бонуси за активну участь у програмі.<\/li><\/ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_YWDnCB": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4.png",
+            "caption": "",
+            "heading": "<strong>Додаткові Переваги<\/strong>",
+            "text": "<ul><li>Можливість розміщення позначки \"Амбасадор Rute\" у своєму профілі.<\/li><li>Розміщення профілю амбасадора на нашому сайті та в соціальних мережах.<\/li><\/ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_DBbCzf": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0687_1.png",
+            "caption": "",
+            "heading": "<strong>Спешл позиція<\/strong>",
+            "text": "<p><strong>Для амбасадорів, у яких більше 15к живих підписників <\/strong>отримують від нас кожного місяця безкоштовний продукт.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_WmYPie",
+        "row_pR3Wb8",
+        "row_XbqLNy",
+        "row_YWDnCB",
+        "row_DBbCzf"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "scheme-de790d46-03d4-4438-a1bd-7c2ed31225d0",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_K4BUmJ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QDUNdN": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Промоція Продуктів<\/strong>",
+            "text": "<p>- Регулярне поширення інформації про дослідження, продукти Rute у своїх соціальних мережах, на заходах та під час ретрітів.<\/p><p>- Використання свого промокоду для залучення нових клієнтів.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Rqihzt": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Підтримка Цінностей Бренду<\/strong>",
+            "text": "<p>- Відповідність цінностям та місії бренду Rute.<\/p><p>- Активна участь у просуванні здорового способу життя та ментального благополуччя.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_A4rw7A": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Зворотний Зв'язок<\/strong>",
+            "text": "<p>- Надання відгуків про продукти та програми Rute.<\/p><p>- Пропозиції щодо поліпшення та розвитку нових продуктів.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_38QWY8": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "<strong>Суперритуали<\/strong>",
+            "text": "<p>Створюємо продукти для корисних щоденних ритуалів.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_QDUNdN",
+        "column_Rqihzt",
+        "column_A4rw7A",
+        "column_38QWY8"
+      ],
+      "settings": {
+        "title": "<strong>Обов'язки Амбасадорів<\/strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "#contact-form-link",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_XBE6yz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_teAdhc": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_C3KgTL": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_teAdhc",
+        "text_C3KgTL"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_86dPPr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4wkwaD": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Обов'язки Rüte <\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_kcntH6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>- Розповідати про наших амбасадорів в соцмережах<br\/><\/p><p>- Розповідати про заходи, які організовують наши амбасадори в своїх соцмережах<br\/><\/p><p>- Спільні публікації з амбасадорами в стилістиці сторінки Рют для донесення важливої інформації <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4wkwaD",
+        "text_kcntH6"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_PqpMWB": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_T3FKLR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "1. Подання заявки",
+            "icon": "none",
+            "row_content": "<p>Заповніть анкету на нашому сайті або зв'яжіться з нашим менеджером по роботі з амбасадорами.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_w8NEid": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "2. Розгляд заявки",
+            "icon": "none",
+            "row_content": "<p>Ми розглядаємо всі заявки та зв'язуємось з потенційними амбасадорами для подальшого обговорення співпраці.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qjHRbm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "3. Підписання угоди",
+            "icon": "none",
+            "row_content": "<p>Після узгодження умов співпраці, амбасадор підписує угоду та отримує всі необхідні матеріали та інструкції.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_T3FKLR",
+        "collapsible_row_w8NEid",
+        "collapsible_row_qjHRbm"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "<strong>Як Стати Амбасадором<\/strong>",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "section",
+        "color_scheme": "scheme-de790d46-03d4-4438-a1bd-7c2ed31225d0",
+        "container_color_scheme": "scheme-de790d46-03d4-4438-a1bd-7c2ed31225d0",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_66ybtM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_h8ec8a": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Долучайтесь до Нас<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_Wa6c8c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ми віримо, що разом ми зможемо створити спільноту, яка підтримує один одного та прагне досягти гармонії та здоров'я. Якщо ви розділяєте наші цінності та бажаєте стати частиною нашої місії, запрошуємо вас стати амбасадором Rute.<\/p><p><strong>Заповнити анкету можна натиснувши на кнопку внизу.<\/strong><\/p><p><strong>З питаннями та пропозиціями звертайтесь до нашого менеджера по роботі з амбасадорами: Контактні дані<\/strong><\/p><p>Дякуємо, що допомагаєте поширювати здоров'я та гармонію разом з Rute!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_yCzB8t": {
+          "type": "button",
+          "settings": {
+            "button_label": "Заповнити анкету",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_h8ec8a",
+        "text_Wa6c8c",
+        "button_yCzB8t"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_1028.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1721930127335d927c": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_DLBYzM",
+    "image_with_text_qiwmX3",
+    "image_with_text_Encz6B",
+    "rich_text_tCUfN8",
+    "multicolumn_9TdBGM",
+    "rich_text_jJfzAE",
+    "rich_text_RjGUGL",
+    "multirow_YzyUUm",
+    "multicolumn_K4BUmJ",
+    "rich_text_XBE6yz",
+    "rich_text_86dPPr",
+    "collapsible_content_PqpMWB",
+    "image_with_text_66ybtM",
+    "1721930127335d927c"
+  ]
+}

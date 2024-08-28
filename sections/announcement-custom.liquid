@@ -1,0 +1,130 @@
+<div class="color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
+  <div class="page-width">
+    <div class="announcement-items-wrapper">
+      {%- for block in section.blocks -%}
+        <div class="announcement-item">
+          {%- case block.type -%}
+            {%- when 'text' -%}
+              <div class="announcement-item-text">
+                {%- if block.settings.text != blank -%}
+                  <p>{{ block.settings.text }}</p>
+                {% endif %}
+                {%- if block.settings.link3 != blank or block.settings.link3-label != blank -%}
+                  <a href="{{ block.settings.link3 }}" class="">{{ block.settings.link3-label }}</a>
+                {% endif %}
+              </div>
+            {%- when 'links' -%}
+              <div class="announcement-item-links">
+                {%- if block.settings.link1 != blank or block.settings.link1-label != blank -%}
+                   <a href="{{ block.settings.link1 }}" class="">{{ block.settings.link1-label }}</a>
+                {% endif %}
+                {%- if block.settings.link2 != blank or block.settings.link2-label != blank -%}
+                   <a href="{{ block.settings.link2 }}" class="">{{ block.settings.link2-label }}</a>
+                {% endif %}
+              </div>
+          {% endcase %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Announcement custom",
+  "max_blocks": 12,
+  "class": "announcement-bar-section",
+  "enabled_on": {
+    "groups": ["header"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "accent-1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Welcome to our store</p>",
+          "label": "Promotion text"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "link3-label",
+          "label": "Link text",
+          "default": "Learn more"
+        },
+        {
+          "type": "url",
+          "id": "link3",
+          "label": "Link"
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "name": "Links",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "link1-label",
+          "label": "Link 1 text"
+        },
+        {
+          "type": "url",
+          "id": "link1",
+          "label": "Link 1"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "link2-label",
+          "label": "Link 2 text"
+        },
+        {
+          "type": "url",
+          "id": "link2",
+          "label": "Link 2"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Announcement custom",
+      "blocks": [
+        {
+          "type": "links"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}

@@ -1,0 +1,134 @@
+<div class="home_reviews section-{{ section.id }}-padding">
+  <div class="home_reviews_nav"></div>
+  <h1>{{ section.settings.title }}</h1>
+  <img src="https://cdn.shopify.com/s/files/1/0679/1285/9887/files/Frame_1010108041.svg?v=1705853377" class="home_reviews_stars">
+  <div class="home_reviews_overlay">
+    {%- for block in section.blocks -%}
+      <div class="home_reviews_item">
+          <div class="home_reviews_item_image" style="background-image: url({{ block.settings.image.src | img_url: "large" }})"></div>
+          <div class="home_reviews_item_content">
+              <p class="home_reviews_item_text">{{ block.settings.Text }}</p>
+              <p class="home_reviews_item_name">{{ block.settings.Name }}</p>
+          </div>
+      </div>
+    {%- endfor -%}
+    {%- for block in section.blocks -%}
+      <div class="home_reviews_item">
+          <div class="home_reviews_item_image" style="background-image: url({{ block.settings.image.src | img_url: "large" }})"></div>
+          <div class="home_reviews_item_content">
+              <p class="home_reviews_item_text">{{ block.settings.Text }}</p>
+              <p class="home_reviews_item_name">{{ block.settings.Name }}</p>
+          </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+<script>
+  $(document).ready(function(){
+  $('.home_reviews_overlay').slick({
+    slidesToShow:2,
+    slidesToScroll: 1,
+    prevArrow: '<button type="button" class="left"></button>',
+    nextArrow: '<button type="button" class="right"></button>',
+    rows: 0,
+    infinite: true,
+    variableWidth:true,
+    arrows:true,
+    appendArrows:$('.home_reviews_nav'),
+    prevArrow: '<button type="button" class="left"></button>',
+    nextArrow: '<button type="button" class="right"></button>',
+    responsive: [
+    {
+      breakpoint: 481,
+      settings: {
+        slidesToShow: 1,
+        variableWidth:false
+      }
+    },
+      ]
+  });
+});
+</script>
+{% schema %}
+{
+  "name": "Home reviews",
+  "class": "section",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Review Image"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "Text",
+          "label": "Review Text"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "Name",
+          "label": "Review Name"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Home reviews",
+      "blocks": [
+        
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}

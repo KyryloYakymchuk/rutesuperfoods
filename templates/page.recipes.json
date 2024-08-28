@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_LE8x4E": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_gp9XJt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Від ранкових ритуалів                   До опівнічної насолоди",
+            "heading_size": "h1"
+          }
+        },
+        "text_bJTyzK": {
+          "type": "text",
+          "settings": {
+            "text": "Ваш улюблений центр рецептів смачних коктейлів, якими хочеться смакувати, на основі Rüte.",
+            "text_style": "body"
+          }
+        },
+        "buttons_GebkBC": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ДОСЛІДИТИ РЕЦЕПТИ",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_gp9XJt",
+        "text_bJTyzK",
+        "buttons_GebkBC"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cock-cover.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-f275636f-7703-4799-8348-ace31bc624a6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1720694090cbccd066": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_LE8x4E",
+    "1720694090cbccd066"
+  ]
+}

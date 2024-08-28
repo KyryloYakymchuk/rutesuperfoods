@@ -1,0 +1,101 @@
+<div class="why-search color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
+  <div class="page-width">
+    {%- unless section.settings.title == blank -%}
+      <h3 class="why-search-title">
+        {{ section.settings.title }}
+      </h3>
+    {%- endunless -%}
+    <div class="why-title-text-overlay">
+      <div class="why-two-blocks-item-overlay why-search-overlay">
+          {%- if section.settings.description != blank -%}
+            <p class="">
+              {{ section.settings.description }}
+            </p>
+          {%- endif -%}
+          <a href="{{ section.settings.button_link }}" class="why-search-btn button">{{ section.settings.button_text }}</a>
+      </div>
+      {%- if section.settings.right_img != blank -%}
+        <img class="" src="{{ section.settings.right_img | img_url: "large" }}">
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Why Rute Search",
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "title",
+        "default": "Що таке RUTE?",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "description",
+        "label": "Description"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "image_picker",
+        "id": "right_img",
+        "label": "Image"
+      },
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "background-1"
+      },
+      {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 64
+    }
+  ],
+      "presets": [
+    {
+      "name": "Why Rute Search"
+    }
+  ]
+  }
+{% endschema %}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
