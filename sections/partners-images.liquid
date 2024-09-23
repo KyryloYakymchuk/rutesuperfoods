@@ -1,0 +1,113 @@
+{{ 'section-partners-images.css' | asset_url | stylesheet_tag }}
+{% render 'section-paddings' %}
+
+<section class="page-width partners__images-wrapper" id="section-{{ section.id }}">
+  <div class="section-title">
+    {{ section.settings.title }}
+  </div>
+  <div class="partners__images">
+    <div class="partners__swiper partners__mySwiper">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          {% if block.settings.image %}
+            <div class="partners__images-el swiper-slide">
+              {%- render 'images', image: block.settings.image -%}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <script>
+    var products_swiper = new Swiper('.partners__mySwiper', {
+      slidesPerView: 1.22,
+      spaceBetween: 11,
+      breakpoints: {
+        600: {
+          slidesPerView: 3,
+          spaceBetween: 11,
+        },
+      },
+    });
+  </script>
+</section>
+{% schema %}
+{
+  "name": "Partners images",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Page title",
+      "default": "Де знайти Rute?"
+    },
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding-top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-top-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top mobile",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom mobile",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Gallery item",
+      "type": "gallery_item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Partners images",
+      "blocks": [
+        {
+          "type": "gallery_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

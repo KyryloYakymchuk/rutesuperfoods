@@ -1,0 +1,474 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+>
+{% comment %}
+  Renders product variant-picker
+
+
+  Accepts:
+  - product: {Object} product object.
+  - block: {Object} passing the block information.
+  - product_form_id: {String} Id of the product form to which the variant picker is associated.
+  - update_url: {Boolean} whether or not to update url when changing variants. If false, the url isn't updated. Default: true (optional).
+  Usage:
+  {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+{% endcomment %}
+{%- unless product.has_only_default_variant -%}
+  <variant-radios
+    id="variant-radios-{{ section.id }}"
+    class="no-js-hidden new-variant-radios"
+    data-section="{{ section.id }}"
+    data-url="{{ product.url }}"
+    {% if update_url == false %}
+      data-update-url="false"
+    {% endif %}
+    {{ block.shopify_attributes }}
+  >
+    {%- for option in product.options_with_values -%}
+      <legend class="form__label">{{ option.name }}</legend>
+      <div
+        {% if option.name == 'Обери ритуал' %}
+          class="variants_slider_1 variants_slider_opt1"
+        {% elsif option.name == 'Обери формат' %}
+          class="variants_slider_2 variants_slider_opt2"
+        {% endif %}
+      >
+        <fieldset class="js product-form__input swiper-wrapper">
+          {% render 'new-product-variant-options', product: product, option: option, block: block %}
+        </fieldset>
+      </div>
+      {% if option.name == 'Обери ритуал' %}
+        {% if product.selected_or_first_available_variant %}
+          <p class="variant_custom_description" data-id="{{ product.selected_or_first_available_variant.id }}">
+            {{ product.selected_or_first_available_variant.metafields.custom.description }}
+          </p>
+        {% endif %}
+        {% for variant in product.variants %}
+          <p class="variant_custom_description hide" data-id="{{ variant.id }}">
+            {{ variant.metafields.custom.description }}
+          </p>
+        {% endfor %}
+      {% endif %}
+    {%- endfor -%}
+
+    <script id="variants_json">
+      [
+        {%- for variant in product.variants -%}
+        {
+         "id": "{{- variant.id -}}",
+         "background":"{{- variant.metafields.custom.page_background_css -}}"
+        }{%- if forloop.last == false -%},{%- endif -%}
+        {%- endfor -%}
+      ]
+    </script>
+
+    <script type="application/json">
+      {{ product.variants | json }}
+    </script>
+  </variant-radios>
+{%- endunless -%}
+<style>
+  /* position: fixed;
+    right: 109px;
+    overflow-y: scroll;
+    height: 92%; 
+    z-index: 100;
+    */
+
+  .new-product-product__details-wrapper {
+    left: 60%;
+    overflow-y: scroll;
+    position: fixed;
+    height: 92% !important;
+    z-index: 100;
+    transition: top 0.3s ease; /* Smooth transition */
+  }
+
+  .new-product-product__details-wrapper {
+    scrollbar-width: thin;
+    scrollbar-color: #cccccc #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  .new-product-product__details-wrapper::-webkit-scrollbar {
+    width: 1px;
+  }
+
+  .new-product-product__details-wrapper::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  .new-product-product__details-wrapper::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 1px;
+    border: 3px solid #ffffff;
+  }
+  @media (max-width: 2700px) {
+    .new-product-product__details-wrapper {
+      left: 59%;
+    }
+  }
+  @media (max-width: 2100px) {
+    .new-product-product__details-wrapper {
+      left: 61%;
+    }
+  }
+  @media (max-width: 1900px) {
+    .new-product-product__details-wrapper {
+      left: 62%;
+    }
+  }
+  @media (max-width: 1700px) {
+    .new-product-product__details-wrapper {
+      left: 63%;
+    }
+  }
+  @media (max-width: 1600px) {
+    .new-product-product__details-wrapper {
+      left: 64%;
+    }
+  }
+  .stuck {
+    position: absolute;
+    bottom: 0;
+    top: auto;
+  }
+
+  @media (max-width: 1360px) {
+    .new-product-product__details-wrapper {
+      position: relative;
+      left: unset;
+      z-index: 1;
+    }
+  }
+
+  .new-variant-radios .custom_option_footer_price {
+    text-align: center;
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+    letter-spacing: 0.14px;
+    padding: 12px 0;
+    background: #f8f8f8;
+  }
+  .new-variant-radios .custom_option_footer_price.double {
+    background: #93c18c;
+    color: #fff;
+  }
+  .new-variant-radios .custom_option_benefit_icon svg path {
+    fill: grey;
+  }
+  .new-variant-radios .custom_option_benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 16px 20px 16px;
+  }
+
+  .new-variant-radios .custom_option_benefit_el {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .new-variant-radios .custom_option_benefit_title {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+  }
+  .new-variant-radios .custom_option_benefit_title-disabled {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    text-decoration-line: line-through;
+    opacity: 0.5;
+    text-decoration-color: #0000006e;
+  }
+
+  .new-variant-radios .variant_custom_description,
+  .new-variant-radios .variants_slider_2,
+  .new-variant-radios .variants_slider_1,
+  .new-variant-radios .form__label {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .new-variant-radios .form__label:last-of-type {
+    border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+    padding-top: 32px;
+  }
+  .new-variant-radios .variants_slider_opt2 {
+    margin-right: 24px;
+  }
+  .new-variant-radios .hide {
+    display: none;
+  }
+  .new-variant-radios .product-form__input input[type='radio'] + .custom_option_container {
+    padding: unset;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    margin: unset;
+    width: 100%;
+    text-align: start;
+  }
+  .new-variant-radios .custom_option_second-el {
+    padding: 16px 0px 0 0;
+    border-radius: 8px;
+    border: 0.66px solid rgba(0, 0, 0, 0.05);
+  }
+  .checked-slide {
+    box-shadow: 0px 8px 24px 0px rgba(27, 40, 25, 0.02), 0px 6px 12px 0px rgba(27, 40, 25, 0.02),
+      0px 24px 48px 0px rgba(27, 40, 25, 0.04);
+  }
+  .new-variant-radios .custom_option_second-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .new-variant-radios .custom_option_second-title span {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 27px */
+    padding: 0 16px;
+  }
+  .new-variant-radios .custom_option_second-title .custom_option_portion {
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .new-variant-radios .form__label {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .new-variant-radios .variant_custom_description {
+    color: #161c15;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.15px;
+    margin-bottom: 32px;
+    opacity: 0.5;
+    max-width: 327px;
+  }
+  .new-variant-radios {
+    overflow: hidden;
+  }
+
+  .new-variant-radios .product-form__input input[type='radio'] + .custom_option_first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: unset;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    margin: unset;
+  }
+  .new-variant-radios .custom_option_first img {
+    width: 80px;
+    height: 80px;
+    border: 4px solid transparent;
+    border-radius: 100px;
+  }
+  .new-variant-radios .custom_option_first-title {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .new-variant-radios .product-form__input input[type='radio']:checked + .custom_option_container,
+  .new-variant-radios .product-form__input input[type='radio']:checked + .custom_option_first {
+    background-color: unset;
+    color: unset;
+  }
+  .new-variant-radios .product-form__input input[type='radio']:checked + .custom_option_first img {
+    border: 4px solid #fff;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.04), 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
+  }
+  .new-variant-radios .custom_option_first-el {
+    position: relative;
+  }
+
+@media(max-width:1360px){
+  .new-variant-radios .variant_custom_description,
+  .new-variant-radios .form__label{
+    text-align: start;
+  }
+}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var variants_slider_1 = new Swiper('.variants_slider_opt1', {
+    slidesPerView: 3.2,
+    spaceBetween: 24,
+    breakpoints: {
+      1360: {
+        slidesPerView: 3.6,
+        spaceBetween: 24,
+      },
+    },
+  });
+  var variants_slider_2 = new Swiper('.variants_slider_opt2', {
+    slidesPerView: 1.2,
+    spaceBetween: 16,
+    breakpoints: {
+      1360: {
+        slidesPerView: 1.3,
+        spaceBetween: 16,
+      },
+    },
+  });
+
+
+  
+window.addEventListener('load', () => {
+
+    const wrapper = document.querySelector('.new-product-product__details-wrapper');
+    const mainContent = document.getElementById('MainContent');
+    
+    // Get the total height of the content and the height of the fixed element
+    let wrapperHeight = wrapper.offsetHeight;
+
+    function handleScroll() {
+      const contentRect = mainContent.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
+      
+      // Calculate the bottom of the MainContent and the scroll position
+      const contentBottom = contentRect.bottom;
+      const wrapperBottom = window.scrollY + wrapperHeight + 250; // Adjust 50 for spacing
+
+      // Check if we're on mobile
+      if (window.innerWidth > 1360) {
+        
+        if (wrapperBottom >= mainContent.offsetTop + mainContent.offsetHeight) {
+          // Set to absolute if we reached the bottom of #MainContent
+          wrapper.classList.add('stuck');
+          wrapper.style.position = 'absolute';
+          wrapper.style.top = `${(mainContent.offsetHeight - 210 ) - wrapperHeight}px`;
+        } else {
+          // Switch back to fixed if scrolling up
+          wrapper.classList.remove('stuck');
+          wrapper.style.position = 'fixed';
+          wrapper.style.top = 'auto';  // Reset the top position
+        }
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', () => {
+      wrapperHeight = wrapper.offsetHeight; 
+      handleScroll();  
+    });
+
+  // UPDATE QTY
+  document.querySelector('.quantity__input').addEventListener('change', function (e) {
+    let regular_price = document.querySelector('.custom-product__info-btn .price-item.price-item--regular')
+    let regular_price_cap_displayed = document.querySelector('.custom-product__info-btn .price-item.price-item--sale.price-item--last')
+    let sale_price = document.querySelector('.custom-product__info-btn .price--on-sale .price__sale s')
+
+    if(sale_price){
+      regular_price_cap_displayed.innerHTML = +regular_price_cap_displayed.dataset.price.split('грн')[0] * +e.target.value + ' грн'
+      sale_price.innerHTML = +sale_price.dataset.price.split('грн')[0].split(' ')[0].replace(',','') * +e.target.value + ' грн'
+    }else{
+      regular_price.innerHTML = +regular_price.dataset.price.split('грн')[0] * +e.target.value + ' грн'
+    }
+  })
+
+  const productVariants = {{ product.variants | json }};
+  // UPDATE PAGE BACKGROUND COLOR
+  const updateBackgroundColor = () => {
+    let background_color = JSON.parse(document.querySelector('#variants_json').innerHTML).find(
+      ({ id }) => +id === +document.querySelector('.product-variant-id').value
+    ).background;
+
+    document.querySelectorAll('.gradient').forEach((bg_el) => {
+      bg_el.style.backgroundColor = background_color;
+    });
+  };
+  updateBackgroundColor();
+  updateSelectedVariant()
+
+  // MAIN INPUT ID CHANGED
+  document.querySelector('.product-variant-id').addEventListener('change', function (e) {
+    document.querySelectorAll('.variant_custom_description').forEach((description) => {
+      description.classList.add('hide');
+    });
+    document
+      .querySelector(`.variant_custom_description[data-id="${document.querySelector('.product-variant-id').value}"]`)
+      .classList.remove('hide');
+
+    // updatePrices(selectedVariantId);
+    updateBackgroundColor();
+  });
+
+  // FIRST OPTION CHANGED
+  document.querySelectorAll('.custom_option_first-el input[type="radio"]').forEach((radio) => {
+    radio.addEventListener('change', function () {
+      updateSelectedVariant();
+    });
+  });
+
+  // SECOND OPTION CHANGED
+  document.querySelectorAll('.custom_option_second-el input[type="radio"]').forEach((radio) => {
+    radio.addEventListener('change', function () {
+      document.querySelectorAll('.swiper-slide').forEach(function (slide) {
+        slide.classList.remove('checked-slide');
+      });
+      updateSelectedVariant();
+      if (this.checked) {
+        this.closest('.swiper-slide').classList.add('checked-slide');
+      }
+    });
+  });
+
+  // Function to update the selected variant based on the chosen options
+  function updateSelectedVariant() {
+    const firstOption = document.querySelector('.custom_option_first-el input[type="radio"]:checked').value;
+    const secondOption_1 = document.querySelectorAll('.custom_option_second-el input[type="radio"]')[0].value;
+    const secondOption_2 = document.querySelectorAll('.custom_option_second-el input[type="radio"]')[1].value;
+
+    const matchingVariant_1 = productVariants.find((variant) => {
+      return variant.options.includes(firstOption) && variant.options.includes(secondOption_1);
+    });
+    const matchingVariant_2 = productVariants.find((variant) => {
+      return variant.options.includes(firstOption) && variant.options.includes(secondOption_2);
+    });
+      updatePrices(matchingVariant_1, matchingVariant_2);
+  }
+
+  function updatePrices(matchingVariant_1, matchingVariant_2) {
+      const standardPriceElement = document.querySelector('.custom_option_footer_price.standard');
+      const doublePriceElement = document.querySelector('.custom_option_footer_price.double');
+ 
+      standardPriceElement.textContent = (matchingVariant_1.price / 100) + ' грн'; 
+      doublePriceElement.textContent = (matchingVariant_2.price / 100) + ' грн'; 
+  }
+});
+</script>

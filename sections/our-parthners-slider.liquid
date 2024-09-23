@@ -1,0 +1,136 @@
+{{ 'section-reviews-slider.css' | asset_url | stylesheet_tag }}
+
+{% render 'section-paddings' %}
+
+<section class="page-width our_parthners_wrapper" id="section-{{ section.id }}">
+  {% if section.settings.title != blank %}
+    <div class="section-title">{{ section.settings.title }}</div>
+  {% endif %}
+  <div class="reviews__slider-container our_parthners_slider_contrainer">
+    <div class="our_parthners_swiper our_parthners_slider">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide reviews__slider-el">
+            <div class="our_parthners_slider-content">
+              {% if block.settings.reviewer_image != blank %}
+                <div class="reviews__slider-el-reviewer">
+                  {% render 'images', image: block.settings.reviewer_image %}
+                </div>
+              {% endif %}
+              <div class="reviews__slider-el-content">
+                {{ block.settings.review_content }}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  var our_parthners_swiper = new Swiper('.our_parthners_slider', {
+    slidesPerView: 1.2,
+    spaceBetween: 6,
+    freeMode: true,
+    breakpoints: {
+      900: {
+        slidesPerView: 2.75,
+        spaceBetween: 24,
+      },
+      686: {
+        slidesPerView: 2,
+        spaceBetween: 24,
+      },
+      500: {
+        slidesPerView: 1.7,
+        spaceBetween: 24,
+      },
+    },
+  });
+</script>
+{% schema %}
+{
+  "name": "Our parthners slider",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section title",
+      "default": "Що кажуть авторитетні медіа про Rute"
+    },
+    {
+      "type": "range",
+      "id": "padding-top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-top-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top mobile",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom mobile",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "reviewer_image",
+          "label": "Reviewer image"
+        },
+        {
+          "type": "textarea",
+          "id": "review_content",
+          "label": "Review content",
+          "default": "<p>Наш інноваційний кавовий бленд, насичений екстрактами адаптогенних грибів та рослин, дарує бадьорість та концентрацію, підтримує імунітет, має ніжний, кремовий смак, і містить менше половини кофеїну порівняно зі звичайною кавою, забезпечуючи натуральну енергію без тремтіння та без негативного впливу на сон.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Our parthners slider",
+      "blocks": [
+        {
+          "type": "review"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,124 @@
+{{ 'section-reviews-slider.css' | asset_url | stylesheet_tag }}
+
+{% render 'section-paddings' %}
+
+<section class="page-width" id="section-{{ section.id }}">
+  <div class="reviews__slider-container">
+    <div class="reviews__slider_swiper reviews__slider">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide reviews__slider-el">
+            <div class="reviews__slider-el-content">
+              {{ block.settings.review_content }}
+            </div>
+            <div class="reviews__slider-el-reviewer">
+              <span>{{ block.settings.reviewer_name }}</span>
+              {%- render 'icon-reviews-stars' -%}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  var reviews__slider_swiper = new Swiper('.reviews__slider', {
+    slidesPerView: 1,
+    spaceBetween: 24,
+    breakpoints: {
+      900: {
+        slidesPerView: 2.37,
+        spaceBetween: 24,
+      },
+      686: {
+        slidesPerView: 2,
+        spaceBetween: 24,
+      },
+      500: {
+        slidesPerView: 1.7,
+        spaceBetween: 24,
+      },
+    },
+  });
+</script>
+{% schema %}
+{
+  "name": "Reviews slider",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding-top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-top-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top mobile",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom mobile",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        {
+          "type": "text",
+          "id": "reviewer_name",
+          "label": "Reviewer name",
+          "default": "Олександр"
+        },
+        {
+          "type": "textarea",
+          "id": "review_content",
+          "label": "Review content",
+          "default": "<p>Наш інноваційний кавовий бленд, насичений екстрактами адаптогенних грибів та рослин, дарує бадьорість та концентрацію, підтримує імунітет, має ніжний, кремовий смак, і містить менше половини кофеїну порівняно зі звичайною кавою, забезпечуючи натуральну енергію без тремтіння та без негативного впливу на сон.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Reviews slider",
+      "blocks": [
+        {
+          "type": "review"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

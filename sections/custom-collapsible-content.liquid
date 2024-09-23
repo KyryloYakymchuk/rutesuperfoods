@@ -1,0 +1,134 @@
+{{ 'section-collapsible-content.css' | asset_url | stylesheet_tag }}
+
+{% render 'section-paddings' %}
+<section class="collapsible-content page-width" id="section-{{ section.id }}">
+  <div class="page-width-large">
+    <div class="collapsible-content--wrapper">
+      {% if section.settings.title != blank %}
+        <div class="section-title">{{ section.settings.title }}</div>
+      {% endif %}
+      {% if section.blocks.size > 0 %}
+        <div class="collapsible-content--items">
+          {% for block in section.blocks %}
+            {% if block.settings.title != blank and block.settings.content != blank %}
+              <div class="accordion__item" {{ block.shopify_attributes }}>
+                <div class="accordion__trigger">
+                  <div class="question-title">
+                    {{ block.settings.title }}
+                  </div>
+                  <div class="question-state">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6 9L12 15L18 9" stroke="#161C15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  class="accordion__content"
+                  style="display: none;"
+                >
+                  {{ block.settings.content }}
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<script>
+  $(document).on('click', '.accordion__trigger', function (event) {
+    event.preventDefault();
+
+    let accordionItem = $(this).closest('.accordion__item');
+    if (accordionItem.hasClass('open') == false) {
+      accordionItem.addClass('open');
+      accordionItem.find('.accordion__content').slideToggle(500);
+    } else {
+      accordionItem.removeClass('open');
+      accordionItem.find('.accordion__content').slideToggle(500);
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Collapsible content",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding-top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-top-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top mobile",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom mobile",
+      "default": 0
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "faq’s"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq-item",
+      "name": "FAQ Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "content",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collapsible content"
+    }
+  ]
+}
+{% endschema %}

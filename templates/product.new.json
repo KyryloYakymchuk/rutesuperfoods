@@ -1,0 +1,528 @@
+{
+  "sections": {
+    "main": {
+      "type": "new-main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "subtitle_9UNbUA": {
+          "type": "subtitle",
+          "settings": {
+            "product_subtitle": "{{ product.metafields.custom.product_subtitle.value }}"
+          }
+        },
+        "52371748-52a0-432b-9785-cd8f92dcd546": {
+          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "use_metafields": false,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": "mushroom-coffee-t"
+          }
+        },
+        "product_review_EbMHyH": {
+          "type": "product-review",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "4214317a-d277-46a6-980b-34f879c3ccfd": {
+          "type": "description",
+          "settings": {
+            "product_desctiption": "{{ product.metafields.custom.product_description.value }}"
+          }
+        },
+        "benefits_slider_txwmhL": {
+          "type": "benefits_slider",
+          "settings": {
+            "benefit_text_1": "Стабільна енергія",
+            "benefit_icon_1": "<svg width=\"32\" height=\"33\" viewbox=\"0 0 32 33\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g clip-path=\"url(#clip0_16_128)\">\n<circle cx=\"16\" cy=\"16.5\" r=\"15.25\" stroke=\"#93C18C\" stroke-width=\"1.5\"><\/circle>\n<path d=\"M19.8571 14.25C19 12 19.8571 7.5 16 7.5C12.1429 7.5 13 12 12.1429 13.8C11.2857 15.6 10 16.95 10 19.65C10 23.7 13.2143 25.5 16 25.5C18.7857 25.5 22 23.7 22 19.65C22 17.4 20.7143 16.5 19.8571 14.25Z\" stroke=\"#93C18C\" stroke-width=\"1.5\"><\/path>\n<path d=\"M18.5706 19.1997C18.5706 19.9158 18.2997 20.6025 17.8174 21.1089C17.3352 21.6152 16.6811 21.8997 15.9992 21.8997C15.3172 21.8997 14.6631 21.6152 14.1809 21.1089C13.6987 20.6025 13.4277 19.9158 13.4277 19.1997C13.4277 17.7084 14.5789 15.8247 15.9992 15.8247C17.4194 15.8247 18.5706 17.7084 18.5706 19.1997Z\" stroke=\"#93C18C\" stroke-width=\"1.5\"><\/path>\n<\/g>\n<defs>\n<clippath id=\"clip0_16_128\">\n<rect width=\"32\" height=\"32\" fill=\"white\" transform=\"translate(0 0.5)\"><\/rect>\n<\/clippath>\n<\/defs>\n<\/svg>",
+            "benefit_text_2": "Покращена концентрація",
+            "benefit_icon_2": "<svg width=\"32\" height=\"33\" viewbox=\"0 0 32 33\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g clip-path=\"url(#clip0_16_135)\">\n<circle cx=\"16\" cy=\"16.5\" r=\"15.25\" stroke=\"#93C18C\" stroke-width=\"1.5\"><\/circle>\n<path d=\"M17.1198 12.8819L19.0858 10.9149C18.8532 10.6824 18.6815 10.3961 18.586 10.0814C18.4905 9.76667 18.474 9.43325 18.5381 9.11067C18.6022 8.78809 18.7449 8.48629 18.9535 8.23201C19.1621 7.97774 19.4302 7.77882 19.734 7.6529C20.0378 7.52697 20.368 7.47791 20.6953 7.51007C21.0226 7.54223 21.337 7.65462 21.6105 7.83727C21.884 8.01992 22.1082 8.26721 22.2634 8.55722C22.4185 8.84723 22.4997 9.17103 22.4998 9.49992C22.8287 9.49968 23.1527 9.5806 23.4429 9.7355C23.7331 9.8904 23.9807 10.1145 24.1636 10.3879C24.3465 10.6614 24.4591 10.9757 24.4915 11.3031C24.5239 11.6305 24.475 11.9608 24.3492 12.2648C24.2234 12.5687 24.0245 12.837 23.7702 13.0457C23.516 13.2545 23.2142 13.3973 22.8915 13.4615C22.5689 13.5257 22.2353 13.5093 21.9205 13.4138C21.6057 13.3183 21.3194 13.1466 21.0868 12.9139L19.2668 14.7349M10.9998 20.4999L11.9998 21.4999M9.40377 23.0959C12.1368 25.8299 15.3038 27.0959 16.4738 25.9249C17.6458 24.7529 16.3798 21.5869 13.6458 18.8539C10.9128 16.1199 7.74577 14.8539 6.57577 16.0249C5.40377 17.1969 6.66977 20.3629 9.40377 23.0959Z\" stroke=\"#93C18C\" stroke-width=\"1.5\"><\/path>\n<path d=\"M16.4752 25.925C20.3802 22.019 21.3302 16.637 18.5962 13.904C15.8632 11.17 10.4812 12.12 6.57617 16.025\" stroke=\"#93C18C\" stroke-width=\"1.5\"><\/path>\n<\/g>\n<defs>\n<clippath id=\"clip0_16_135\">\n<rect width=\"32\" height=\"32\" fill=\"white\" transform=\"translate(0 0.5)\"><\/rect>\n<\/clippath>\n<\/defs>\n<\/svg>",
+            "benefit_text_3": "Зменшення стресу",
+            "benefit_icon_3": "<svg width=\"32\" height=\"33\" viewbox=\"0 0 32 33\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g clip-path=\"url(#clip0_16_128)\">\n<circle cx=\"16\" cy=\"16.5\" r=\"15.25\" stroke=\"#93C18C\" stroke-width=\"1.5\"><\/circle>\n<path d=\"M19.8571 14.25C19 12 19.8571 7.5 16 7.5C12.1429 7.5 13 12 12.1429 13.8C11.2857 15.6 10 16.95 10 19.65C10 23.7 13.2143 25.5 16 25.5C18.7857 25.5 22 23.7 22 19.65C22 17.4 20.7143 16.5 19.8571 14.25Z\" stroke=\"#93C18C\" stroke-width=\"1.5\"><\/path>\n<path d=\"M18.5706 19.1997C18.5706 19.9158 18.2997 20.6025 17.8174 21.1089C17.3352 21.6152 16.6811 21.8997 15.9992 21.8997C15.3172 21.8997 14.6631 21.6152 14.1809 21.1089C13.6987 20.6025 13.4277 19.9158 13.4277 19.1997C13.4277 17.7084 14.5789 15.8247 15.9992 15.8247C17.4194 15.8247 18.5706 17.7084 18.5706 19.1997Z\" stroke=\"#93C18C\" stroke-width=\"1.5\"><\/path>\n<\/g>\n<defs>\n<clippath id=\"clip0_16_128\">\n<rect width=\"32\" height=\"32\" fill=\"white\" transform=\"translate(0 0.5)\"><\/rect>\n<\/clippath>\n<\/defs>\n<\/svg>",
+            "benefit_text_4": "Стабільна енергія",
+            "benefit_icon_4": "<svg width=\"33\" height=\"32\" viewbox=\"0 0 33 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g clip-path=\"url(#clip0_14_119)\">\n<circle cx=\"16.25\" cy=\"16\" r=\"15.25\" stroke=\"#93C18C\" stroke-width=\"1.5\"><\/circle>\n<path d=\"M14.6866 7.28633L22.3957 11.7102M22.3957 11.7102L20.3268 15.2815M22.3957 11.7102L23.1666 12.1538M17.2541 20.5844L15.8837 22.9494C15.2913 23.9684 14.3193 24.7113 13.1804 25.0154C12.0416 25.3195 10.8287 25.16 9.80714 24.5719C9.30185 24.2821 8.85877 23.8953 8.50331 23.4338C8.14785 22.9724 7.88701 22.4452 7.73576 21.8827C7.5845 21.3202 7.54581 20.7333 7.62189 20.1558C7.69798 19.5783 7.88735 19.0215 8.17914 18.5173L14.6875 7.28633L13.9202 6.8335M17.2541 20.5844L18.7566 17.993L20.3268 15.2815M17.2541 20.5844L14.8589 19.2057M20.3268 15.2815L17.982 13.9331M18.7556 17.993L14.9029 15.7765\" stroke=\"#93C18C\" stroke-width=\"1.5\" stroke-linecap=\"round\"><\/path>\n<path d=\"M25.9168 18.6739C25.9168 19.7281 25.0964 20.5833 24.0835 20.5833C23.0706 20.5833 22.2501 19.7281 22.2501 18.6739C22.2501 18.0139 22.9679 17.133 23.506 16.5656C23.5799 16.4864 23.6693 16.4233 23.7687 16.3801C23.868 16.337 23.9752 16.3147 24.0835 16.3147C24.1918 16.3147 24.2989 16.337 24.3983 16.3801C24.4976 16.4233 24.587 16.4864 24.661 16.5656C25.1991 17.133 25.9168 18.0139 25.9168 18.6739Z\" stroke=\"#93C18C\" stroke-width=\"1.5\"><\/path>\n<\/g>\n<defs>\n<clippath id=\"clip0_14_119\">\n<rect width=\"32\" height=\"32\" fill=\"white\" transform=\"translate(0.25)\"><\/rect>\n<\/clippath>\n<\/defs>\n<\/svg>",
+            "benefit_text_5": "",
+            "benefit_icon_5": "",
+            "benefit_text_6": "",
+            "benefit_icon_6": ""
+          }
+        },
+        "buy_buttons_second_xU7Ve6": {
+          "type": "buy_buttons_second",
+          "settings": {
+          }
+        },
+        "buy_buttons_Uc4pAb": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "variant_picker_UNbzyA": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "product_border_ATpeYD": {
+          "type": "product-border",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "releasit_cod_form_button_app_block_ckttya": {
+          "type": "shopify:\/\/apps\/releasit-cod-form\/blocks\/button-app-block\/72faf214-4174-4fec-886b-0d0e8d3af9a2",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "4b459710-b70b-4398-bff1-ad2b8c0695d4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>Науково доведено<\/strong>",
+            "text_style": "body"
+          }
+        },
+        "53e642a4-c432-441f-a09f-15a3abb709e3": {
+          "type": "product_roasting",
+          "settings": {
+          }
+        },
+        "f5fb926e-4c90-4782-965a-38c07694fba1": {
+          "type": "product_caffeine",
+          "settings": {
+          }
+        },
+        "product_video_review_rRrzFj": {
+          "type": "product_video_review",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "complementary_xAc7hr": {
+          "type": "complementary",
+          "disabled": true,
+          "settings": {
+            "block_heading": "Вам також сподобається",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 1,
+            "pagination_style": "dots",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "subtitle_9UNbUA",
+        "52371748-52a0-432b-9785-cd8f92dcd546",
+        "product_review_EbMHyH",
+        "4214317a-d277-46a6-980b-34f879c3ccfd",
+        "benefits_slider_txwmhL",
+        "buy_buttons_second_xU7Ve6",
+        "buy_buttons_Uc4pAb",
+        "variant_picker_UNbzyA",
+        "product_border_ATpeYD",
+        "releasit_cod_form_button_app_block_ckttya",
+        "4b459710-b70b-4398-bff1-ad2b8c0695d4",
+        "53e642a4-c432-441f-a09f-15a3abb709e3",
+        "f5fb926e-4c90-4782-965a-38c07694fba1",
+        "product_video_review_rRrzFj",
+        "complementary_xAc7hr"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "color_scheme": "background-1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "reviews_slider_mtqapH": {
+      "type": "reviews-slider",
+      "blocks": {
+        "review_nRaj3R": {
+          "type": "review",
+          "settings": {
+            "reviewer_name": "Олександр",
+            "review_content": "<p>Наш інноваційний кавовий бленд, насичений екстрактами адаптогенних грибів та рослин, дарує бадьорість та концентрацію, підтримує імунітет, має ніжний, кремовий смак, і містить менше...<\/p>"
+          }
+        },
+        "review_gczKqh": {
+          "type": "review",
+          "settings": {
+            "reviewer_name": "Олександр",
+            "review_content": "<p>Наш інноваційний кавовий бленд, насичений екстрактами адаптогенних грибів та рослин, дарує бадьорість та концентрацію, підтримує імунітет, має ніжний, кремовий смак, і містить менше...<\/p>"
+          }
+        },
+        "review_dPjYqJ": {
+          "type": "review",
+          "settings": {
+            "reviewer_name": "Олександр",
+            "review_content": "<p>Наш інноваційний кавовий бленд, насичений екстрактами адаптогенних грибів та рослин, дарує бадьорість та концентрацію, підтримує імунітет, має ніжний, кремовий смак, і містить менше...<\/p>"
+          }
+        },
+        "review_iKaD7g": {
+          "type": "review",
+          "settings": {
+            "reviewer_name": "Олександр",
+            "review_content": "<p>Наш інноваційний кавовий бленд, насичений екстрактами адаптогенних грибів та рослин, дарує бадьорість та концентрацію, підтримує імунітет, має ніжний, кремовий смак, і містить менше...<\/p>"
+          }
+        },
+        "review_rq7cPP": {
+          "type": "review",
+          "settings": {
+            "reviewer_name": "Олександр",
+            "review_content": "<p>Наш інноваційний кавовий бленд, насичений екстрактами адаптогенних грибів та рослин, дарує бадьорість та концентрацію, підтримує імунітет, має ніжний, кремовий смак, і містить менше...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "review_nRaj3R",
+        "review_gczKqh",
+        "review_dPjYqJ",
+        "review_iKaD7g",
+        "review_rq7cPP"
+      ],
+      "settings": {
+        "padding-top": 12,
+        "padding-bottom": 32,
+        "padding-top-mobile": 26,
+        "padding-bottom-mobile": 40
+      }
+    },
+    "video_reviews_AHhmeq": {
+      "type": "video-reviews",
+      "settings": {
+        "title": "Історії рютерів",
+        "padding-top": 0,
+        "padding-bottom": 32,
+        "padding-top-mobile": 0,
+        "padding-bottom-mobile": 40
+      }
+    },
+    "image_gallery_9rmqBT": {
+      "type": "image-gallery",
+      "blocks": {
+        "gallery_item_zektcy": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lions_Mane_Mushroom_on_Oak_Tree_1.png",
+            "title": "Lions Mane",
+            "subtitle": "Індія, Шрі-Ланка",
+            "label_1": "Natural Energy",
+            "label_2": "Focus"
+          }
+        },
+        "gallery_item_PyAaUr": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lions_Mane_Mushroom_on_Oak_Tree_1_1.png",
+            "title": "Turkey Tail",
+            "subtitle": "Індія, Шрі-Ланка",
+            "label_1": "Natural Energy",
+            "label_2": "Focus"
+          }
+        },
+        "gallery_item_BPjXfp": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lions_Mane_Mushroom_on_Oak_Tree_1_2.png",
+            "title": "Reishi",
+            "subtitle": "Індія, Шрі-Ланка",
+            "label_1": "Natural Energy",
+            "label_2": "Focus"
+          }
+        }
+      },
+      "block_order": [
+        "gallery_item_zektcy",
+        "gallery_item_PyAaUr",
+        "gallery_item_BPjXfp"
+      ],
+      "settings": {
+        "padding-top": 0,
+        "padding-bottom": 40,
+        "padding-top-mobile": 6,
+        "padding-bottom-mobile": 40
+      }
+    },
+    "you_may_also_like_LJCYbM": {
+      "type": "you-may-also-like",
+      "settings": {
+        "title": "Тобі також сподобається",
+        "padding-top": 0,
+        "padding-bottom": 40,
+        "padding-top-mobile": 0,
+        "padding-bottom-mobile": 40
+      }
+    },
+    "partners_images_QTGpXB": {
+      "type": "partners-images",
+      "blocks": {
+        "gallery_item_UyJw3D": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_319.png"
+          }
+        },
+        "gallery_item_mYjTpi": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_111_d58acbe1-625b-467a-a93d-34c97838602a.png"
+          }
+        },
+        "gallery_item_6zBBUd": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1010108231.png"
+          }
+        }
+      },
+      "block_order": [
+        "gallery_item_UyJw3D",
+        "gallery_item_mYjTpi",
+        "gallery_item_6zBBUd"
+      ],
+      "settings": {
+        "title": "Де знайти Rute?",
+        "padding-top": 0,
+        "padding-bottom": 0,
+        "padding-top-mobile": 0,
+        "padding-bottom-mobile": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
+    },
+    "custom_collapsible_content_B8XDhD": {
+      "type": "custom-collapsible-content",
+      "blocks": {
+        "faq_item_ArKkzD": {
+          "type": "faq-item",
+          "settings": {
+            "title": "Харчова цінність",
+            "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quod labore soluta, nulla rem quibusdam nihil, culpa illo vero autem incidunt dolorem illum aut sit provident unde accusamus facilis dignissimos laudantium odio ipsa a deleniti. Esse voluptatum deleniti fugiat non ullam sunt ipsum earum qui voluptas, dolorum, aut eligendi maiores possimus vel veritatis fugit nihil corporis laborum consectetur itaque, a facilis? Dicta, nesciunt? Porro."
+          }
+        },
+        "faq_item_wiBJbD": {
+          "type": "faq-item",
+          "settings": {
+            "title": "Інгредієнти в Rute",
+            "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quod labore soluta, nulla rem quibusdam nihil, culpa illo vero autem incidunt dolorem illum aut sit provident unde accusamus facilis dignissimos laudantium odio ipsa a deleniti. Esse voluptatum deleniti fugiat non ullam sunt ipsum earum qui voluptas, dolorum, aut eligendi maiores possimus vel veritatis fugit nihil corporis laborum consectetur itaque, a facilis? Dicta, nesciunt? Porro."
+          }
+        },
+        "faq_item_D7KQVX": {
+          "type": "faq-item",
+          "settings": {
+            "title": "Історія Rute",
+            "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quod labore soluta, nulla rem quibusdam nihil, culpa illo vero autem incidunt dolorem illum aut sit provident unde accusamus facilis dignissimos laudantium odio ipsa a deleniti. Esse voluptatum deleniti fugiat non ullam sunt ipsum earum qui voluptas, dolorum, aut eligendi maiores possimus vel veritatis fugit nihil corporis laborum consectetur itaque, a facilis? Dicta, nesciunt? Porro."
+          }
+        },
+        "faq_item_gYWAwV": {
+          "type": "faq-item",
+          "settings": {
+            "title": "Доказова база",
+            "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quod labore soluta, nulla rem quibusdam nihil, culpa illo vero autem incidunt dolorem illum aut sit provident unde accusamus facilis dignissimos laudantium odio ipsa a deleniti. Esse voluptatum deleniti fugiat non ullam sunt ipsum earum qui voluptas, dolorum, aut eligendi maiores possimus vel veritatis fugit nihil corporis laborum consectetur itaque, a facilis? Dicta, nesciunt? Porro."
+          }
+        },
+        "faq_item_UE6fq4": {
+          "type": "faq-item",
+          "settings": {
+            "title": "Наша місія",
+            "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quod labore soluta, nulla rem quibusdam nihil, culpa illo vero autem incidunt dolorem illum aut sit provident unde accusamus facilis dignissimos laudantium odio ipsa a deleniti. Esse voluptatum deleniti fugiat non ullam sunt ipsum earum qui voluptas, dolorum, aut eligendi maiores possimus vel veritatis fugit nihil corporis laborum consectetur itaque, a facilis? Dicta, nesciunt? Porro."
+          }
+        },
+        "faq_item_Win6zH": {
+          "type": "faq-item",
+          "settings": {
+            "title": "Як готувати?",
+            "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quod labore soluta, nulla rem quibusdam nihil, culpa illo vero autem incidunt dolorem illum aut sit provident unde accusamus facilis dignissimos laudantium odio ipsa a deleniti. Esse voluptatum deleniti fugiat non ullam sunt ipsum earum qui voluptas, dolorum, aut eligendi maiores possimus vel veritatis fugit nihil corporis laborum consectetur itaque, a facilis? Dicta, nesciunt? Porro."
+          }
+        },
+        "faq_item_Ahw49X": {
+          "type": "faq-item",
+          "settings": {
+            "title": "Найчастіші питання",
+            "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quod labore soluta, nulla rem quibusdam nihil, culpa illo vero autem incidunt dolorem illum aut sit provident unde accusamus facilis dignissimos laudantium odio ipsa a deleniti. Esse voluptatum deleniti fugiat non ullam sunt ipsum earum qui voluptas, dolorum, aut eligendi maiores possimus vel veritatis fugit nihil corporis laborum consectetur itaque, a facilis? Dicta, nesciunt? Porro."
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_ArKkzD",
+        "faq_item_wiBJbD",
+        "faq_item_D7KQVX",
+        "faq_item_gYWAwV",
+        "faq_item_UE6fq4",
+        "faq_item_Win6zH",
+        "faq_item_Ahw49X"
+      ],
+      "settings": {
+        "padding-top": 40,
+        "padding-bottom": 40,
+        "padding-top-mobile": 40,
+        "padding-bottom-mobile": 40,
+        "title": "Більше про Mushroom Matcha"
+      }
+    },
+    "170336061806e1beeb": {
+      "type": "apps",
+      "blocks": {
+        "37a126f1-c38d-419d-a9dd-406f6a99b698": {
+          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "37a126f1-c38d-419d-a9dd-406f6a99b698"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "our_parthners_slider_MaLCKy": {
+      "type": "our-parthners-slider",
+      "blocks": {
+        "review_VehGcK": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Vector.png",
+            "review_content": "<p>Наш інноваційний кавовий бленд, насичений екстрактами адаптогенних грибів та рослин, дарує бадьорість та концентрацію, підтримує імунітет, має ніжний, кремовий смак, і містить менше...<\/p>"
+          }
+        },
+        "review_Up9mwy": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Vector.png",
+            "review_content": "<p>Наш інноваційний кавовий бленд, насичений екстрактами адаптогенних грибів та рослин, дарує бадьорість та концентрацію, підтримує імунітет, має ніжний, кремовий смак, і містить менше...<\/p>"
+          }
+        },
+        "review_dT4Nek": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Vector.png",
+            "review_content": "<p>Наш інноваційний кавовий бленд, насичений екстрактами адаптогенних грибів та рослин, дарує бадьорість та концентрацію, підтримує імунітет, має ніжний, кремовий смак, і містить менше...<\/p>"
+          }
+        },
+        "review_YNHUVz": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Vector.png",
+            "review_content": "<p>Наш інноваційний кавовий бленд, насичений екстрактами адаптогенних грибів та рослин, дарує бадьорість та концентрацію, підтримує імунітет, має ніжний, кремовий смак, і містить менше...<\/p>"
+          }
+        },
+        "review_JQPN7E": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Vector.png",
+            "review_content": "<p>Наш інноваційний кавовий бленд, насичений екстрактами адаптогенних грибів та рослин, дарує бадьорість та концентрацію, підтримує імунітет, має ніжний, кремовий смак, і містить менше...<\/p>"
+          }
+        },
+        "review_9yEmWP": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Vector.png",
+            "review_content": "<p>Наш інноваційний кавовий бленд, насичений екстрактами адаптогенних грибів та рослин, дарує бадьорість та концентрацію, підтримує імунітет, має ніжний, кремовий смак, і містить менше...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "review_VehGcK",
+        "review_Up9mwy",
+        "review_dT4Nek",
+        "review_YNHUVz",
+        "review_JQPN7E",
+        "review_9yEmWP"
+      ],
+      "settings": {
+        "title": "Що кажуть авторитетні медіа про Rute",
+        "padding-top": 40,
+        "padding-bottom": 56,
+        "padding-top-mobile": 40,
+        "padding-bottom-mobile": 42
+      }
+    },
+    "db9b886b-75ae-4d74-b230-a688f9a13c0a": {
+      "type": "newsletter",
+      "blocks": {
+        "template--17275147813103__db9b886b-75ae-4d74-b230-a688f9a13c0a-heading-text-1": {
+          "type": "heading-text",
+          "settings": {
+            "heading1": "Приєднуйся до Rüte",
+            "text1": "<p>Будь першим, хто дізнається про акції, новинки та останні новини. Отримай 15% знижки на свою першу покупку.<\/p>"
+          }
+        },
+        "template--17275147813103__db9b886b-75ae-4d74-b230-a688f9a13c0a-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17275147813103__db9b886b-75ae-4d74-b230-a688f9a13c0a-heading-text-1",
+        "template--17275147813103__db9b886b-75ae-4d74-b230-a688f9a13c0a-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "reviews_slider_mtqapH",
+    "video_reviews_AHhmeq",
+    "image_gallery_9rmqBT",
+    "you_may_also_like_LJCYbM",
+    "partners_images_QTGpXB",
+    "related-products",
+    "custom_collapsible_content_B8XDhD",
+    "170336061806e1beeb",
+    "our_parthners_slider_MaLCKy",
+    "db9b886b-75ae-4d74-b230-a688f9a13c0a"
+  ]
+}

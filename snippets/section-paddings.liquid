@@ -1,0 +1,21 @@
+<style>
+  #section-{{ section.id }} {
+    padding-top: {{ section.settings.padding-top }}px;
+    padding-bottom: {{ section.settings.padding-bottom }}px;
+  }
+
+  @media screen and (min-width: 989px) and (max-width: 1250px) {
+    #section-{{ section.id }} {
+      padding-top: {{ section.settings.padding-top | divided_by: 1.5 }}px;
+      padding-bottom: {{ section.settings.padding-bottom | divided_by: 1.5 }}px;
+    }
+  }
+
+  @media screen and (max-width: 989px) {
+    #section-{{ section.id }} {
+      padding-top: {{ section.settings.padding-top-mobile }}px;
+      padding-bottom: {{ section.settings.padding-bottom-mobile }}px;
+    }
+  }
+</style>
+

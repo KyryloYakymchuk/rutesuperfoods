@@ -1,0 +1,127 @@
+{{ 'section-image-gallery.css' | asset_url | stylesheet_tag }}
+
+{% render 'section-paddings' %}
+
+<section class="image__gallery-wrapper page-width" id="section-{{ section.id }}">
+  <div class="image__gallery">
+    {% for block in section.blocks %}
+      {% if block.settings.image %}
+        <div class="image__gallery-el">
+          <div class="image__gallery-el-img">
+            {% render 'images', image: block.settings.image %}
+          </div>
+          <div class="image__gallery-el-header">
+            {% if block.settings.title %}
+              <span class="image__gallery-el-header-title">{{ block.settings.title }}</span>
+            {% endif %}
+            {% if block.settings.subtitle %}
+              <span class="image__gallery-el-header-subtitle">{{ block.settings.subtitle }}</span>
+            {% endif %}
+          </div>
+          <div class="image__gallery-el-labels">
+            {% if block.settings.label_1 %}
+              <span class="image__gallery-el-label">{{ block.settings.label_1 }}</span>
+            {% endif %}
+            {% if block.settings.label_2 %}
+              <span class="image__gallery-el-label">{{ block.settings.label_2 }}</span>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Image gallery",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding-top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-top-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top mobile",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom mobile",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Gallery item",
+      "type": "gallery_item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle"
+        },
+        {
+          "type": "text",
+          "id": "label_1",
+          "label": "Label 1"
+        },
+        {
+          "type": "text",
+          "id": "label_2",
+          "label": "Label 2"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image gallery",
+      "blocks": [
+        {
+          "type": "gallery_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

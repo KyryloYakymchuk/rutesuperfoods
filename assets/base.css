@@ -2941,6 +2941,7 @@ details-disclosure > details {
   background: rgb(var(--color-background));
   background: var(--gradient-background);
   background-attachment: fixed;
+  transition: 0.4s;
 }
 
 @media screen and (forced-colors: active) {

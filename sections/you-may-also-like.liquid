@@ -1,0 +1,119 @@
+{{ 'section-you-may-also-like.css' | asset_url | stylesheet_tag }}
+
+{% render 'section-paddings' %}
+
+<section class="page-width products_swiper-container" id="section-{{ section.id }}">
+  <div class="section-title">
+    {{ section.settings.title }}
+  </div>
+  <div class="products_swiper product-recommendations_swiper">
+    <div class="swiper-wrapper">
+      {% for metafield_product in product.metafields.custom.you_may_also_like_products.value %}
+        <a href="{{ metafield_product.url }}" class="product-recommendations_swiper-el swiper-slide">
+          <div class="product-recommendations_swiper-el-img">
+            {%- render 'images', image: metafield_product.featured_image -%}
+          </div>
+          <div class="product-recommendations_swiper-el-info">
+            <div class="product-recommendations_swiper-el-info-title">{{ metafield_product.title }}</div>
+            <div class="product-recommendations_swiper-el-info-prices">
+              {% if metafield_product.compare_at_price != blank %}
+                <span class="product-recommendations_swiper-el-info-prices-old">
+                  {{- metafield_product.compare_at_price | money_without_currency -}}
+                </span>
+              {% endif %}
+              <span class="product-recommendations_swiper-el-info-prices-new">
+                {{- metafield_product.price | money_with_currency -}}
+              </span>
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<script>
+  var products_swiper = new Swiper('.product-recommendations_swiper', {
+    slidesPerView: 1.5,
+    spaceBetween: 16,
+    breakpoints: {
+      900: {
+        slidesPerView: 3,
+        spaceBetween: 16,
+      },
+      686: {
+        slidesPerView: 2.5,
+        spaceBetween: 16,
+      },
+      454:{
+        slidesPerView: 1.7,
+        spaceBetween: 16,
+      },
+      400:{
+        slidesPerView: 1.3,
+        spaceBetween: 16,
+      }
+    },
+  });
+</script>
+{% schema %}
+{
+  "name": "You may also like",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section title",
+      "default": "Тобі також сподобається"
+    },
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding-top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-top-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top mobile",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom mobile",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "You may also like"
+    }
+  ]
+}
+{% endschema %}

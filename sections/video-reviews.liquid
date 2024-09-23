@@ -1,0 +1,212 @@
+{% render 'section-paddings' %}
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+>
+
+{%- if product.metafields.custom.ugc_videos.value != blank -%}
+  <div class="page-width video_reviews_wrapper" id="section-{{ section.id }}">
+    <div class="section-title only-mobile">
+      {{ section.settings.title }}
+    </div>
+    <div class="video_slider video_reviews_slider video_review">
+      <div class="swiper-wrapper">
+        {% for ugc_videos in product.metafields.custom.ugc_videos.value %}
+          {% assign ugc_index = forloop.index %}
+          <div class="swiper-slide">
+            <a
+              href="{{ ugc_videos.video | file_url }}"
+              data-fancybox="video"
+              class="video_review_item fancybox"
+              style="background-image: url({{ ugc_videos.thumbnail | image_url }});"
+              class="video_review_preview)"
+            >
+              <div class="video_reviewer_info">
+                {% for reviewer_image in product.metafields.custom.ugs_reviewer.value %}
+                  {% if ugc_index == forloop.index %}
+                    {% render 'images', image: reviewer_image %}
+                  {% endif %}
+                {% endfor %}
+                {% for reviewer_name in product.metafields.custom.ugs_reviewer_name.value %}
+                  {% if ugc_index == forloop.index %}
+                    <span>{{ reviewer_name }}</span>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+<style>
+  .only-mobile {
+    display: none;
+  }
+  .video_reviewer_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 21px;
+  }
+  .video_reviewer_info span {
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .video_reviewer_info img {
+    max-width: 64px;
+    max-height: 64px;
+    width: 100%;
+    height: 100%;
+  }
+  .video_reviews_wrapper .video_review {
+    overflow-x: hidden;
+    margin: unset;
+  }
+  .video_review a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-height: 280px;
+    max-width: 157px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: end;
+  }
+  .video_review_slider {
+    margin: unset;
+  }
+  .video_review {
+    border-radius: 24px;
+    background: #fff;
+    padding: 24px;
+    max-width: 857px !important;
+  }
+  @media(max-width:1360px){
+    .video_reviews_wrapper .video_review{
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 768px) {
+    .page-width.video_reviews_wrapper {
+      padding: unset;
+    }
+    .video_reviews_wrapper .section-title {
+      padding-left: 24px;
+    }
+    .video_reviews_wrapper .video_review .swiper-wrapper {
+      margin: 0 24px;
+    }
+    .only-mobile {
+      display: flex;
+    }
+    .video_review {
+      background: unset;
+      padding: unset;
+      border-radius: unset;
+    }
+    .video_review a {
+      background-image: unset !important;
+      height: 80px;
+      align-items: unset;
+    }
+    .video_reviewer_info {
+      padding: unset;
+      justify-content: unset;
+    }
+    .video_reviewer_info span {
+      color: #161c15;
+      font-size: 13px;
+      line-height: 150%;
+      max-width: 64px;
+    }
+  }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  var video_slider = new Swiper('.video_reviews_slider', {
+    slidesPerView: 4.98,
+    spaceBetween: 12,
+    breakpoints: {
+      768: {
+        slidesPerView: 4.8,
+        spaceBetween: 16,
+      },
+    },
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Our parthners slider",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section title",
+      "default": "Історії рютерів"
+    },
+    {
+      "type": "range",
+      "id": "padding-top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-top-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top mobile",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom-mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom mobile",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video reviews"
+    }
+  ]
+}
+{% endschema %}
